@@ -1,0 +1,46 @@
+{
+  "fixed": {
+    "pages": 27,
+    "wall_seconds": 43.56613882200054,
+    "workers": 4,
+    "cer": 0.048760757701727976,
+    "numeric_f1": 0.8952702702702703,
+    "model_counts": {
+      "markdown": 8,
+      "text": 15,
+      "typhoon": 4
+    },
+    "failures": 0,
+    "median_page_seconds": 3.628919503999896,
+    "p90_page_seconds": 12.487987359999897,
+    "matches_first_qwen_run": 26
+  },
+  "typhoon": {
+    "pages": 27,
+    "wall_seconds": 24.23644978000084,
+    "workers": 4,
+    "cer": 0.045210435251556075,
+    "numeric_f1": 0.96415770609319,
+    "model_counts": {
+      "typhoon": 27
+    },
+    "failures": 0,
+    "median_page_seconds": 3.6546362529998078,
+    "p90_page_seconds": 5.2966838553998965,
+    "matches_first_qwen_run": null
+  },
+  "markdown": {
+    "pages": 27,
+    "wall_seconds": 69.74204976400051,
+    "workers": 4,
+    "cer": 0.03314383300002247,
+    "numeric_f1": 0.931323283082077,
+    "model_counts": {
+      "markdown": 27
+    },
+    "failures": 0,
+    "median_page_seconds": 9.734115192999525,
+    "p90_page_seconds": 14.355057671799841,
+    "matches_first_qwen_run": null
+  }
+}
