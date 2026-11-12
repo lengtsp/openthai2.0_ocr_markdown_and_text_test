@@ -1,0 +1,59 @@
+{
+  "documents": [
+    {
+      "file": "rd-pp30.pdf",
+      "source": "https://www.rd.go.th/fileadmin/tax_pdf/vat/2568/pp30_010968.pdf",
+      "sha256": "a093d5db9a73d12cda10e9ef4611f52450bf2cd3a41d8c353fc4d521ce17b964",
+      "pdf_pages": 2,
+      "pages": 2,
+      "selected_pdf_pages": [
+        1,
+        2
+      ],
+      "starter_pages_1_based": [
+        1,
+        2
+      ]
+    },
+    {
+      "file": "rd-pp30-attach.pdf",
+      "source": "https://www.rd.go.th/fileadmin/tax_pdf/vat/2568/AttachPP30_010968.pdf",
+      "sha256": "8b79afe3251be722445b604cb2a89540435474db539e41a532e346e8720eae50",
+      "pdf_pages": 1,
+      "pages": 1,
+      "selected_pdf_pages": [
+        1
+      ],
+      "starter_pages_1_based": [
+        1
+      ]
+    },
+    {
+      "file": "nso-labour-table.pdf",
+      "source": "https://www.nso.go.th/public/e-book/Statistical-Yearbook/SYB-2026_webPage/File_SYB/2026/2/T_2.1_2026.pdf",
+      "sha256": "19868f35f47103f33c513d2dbaff933a4b337950d637a6103aad848791b8961a",
+      "pdf_pages": 1,
+      "pages": 1,
+      "selected_pdf_pages": [
+        1
+      ],
+      "starter_pages_1_based": [
+        1
+      ]
+    },
+    {
+      "file": "gazette-royal-society.pdf",
+      "source": "https://commons.wikimedia.org/wiki/File:พรบ_ราชบัณฑิตฯ_๒๔๗๖.pdf",
+      "sha256": "4a0e75cbdda3fdcb40c675f09b33c446ba0951f609e0aca422d5e67fb274a6c9",
+      "pdf_pages": 19,
+      "pages": 1,
+      "selected_pdf_pages": [
+        1
+      ],
+      "starter_pages_1_based": [
+        1
+      ]
+    }
+  ],
+  "dpi": 200
+}

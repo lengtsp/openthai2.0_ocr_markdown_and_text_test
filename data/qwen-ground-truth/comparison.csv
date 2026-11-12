@@ -1,0 +1,28 @@
+﻿document,page,reference,candidate,status,chars,edits,cer,numeric_f1
+rd-pp30,1,GPT-6.1 Sol,Qwen4-Max-Preview,ok,2434,200,0.08216926869350863,1.0
+rd-pp30,1,GPT-6.1 Sol,typhoon,length,2434,2434,1.0,0.0
+rd-pp30,1,Qwen4-Max-Preview,typhoon,length,2322,2322,1.0,0.0
+rd-pp30,1,GPT-6.1 Sol,text,ok,2434,1046,0.42974527526705014,0.9210526315789473
+rd-pp30,1,Qwen4-Max-Preview,text,ok,2322,988,0.425495262704565,0.9210526315789473
+rd-pp30,1,GPT-6.1 Sol,markdown,ok,2434,749,0.3077239112571898,0.8933333333333333
+rd-pp30,1,Qwen4-Max-Preview,markdown,ok,2322,688,0.2962962962962963,0.8933333333333333
+nso-labour-table,1,GPT-6.1 Sol,Qwen4-Max-Preview,ok,2000,108,0.054,1.0
+nso-labour-table,1,GPT-6.1 Sol,typhoon,ok,2000,114,0.057,1.0
+nso-labour-table,1,Qwen4-Max-Preview,typhoon,ok,2000,220,0.11,1.0
+nso-labour-table,1,GPT-6.1 Sol,text,ok,2000,136,0.068,0.9914529914529915
+nso-labour-table,1,Qwen4-Max-Preview,text,ok,2000,242,0.121,0.9914529914529915
+nso-labour-table,1,GPT-6.1 Sol,markdown,ok,2000,166,0.083,1.0
+nso-labour-table,1,Qwen4-Max-Preview,markdown,ok,2000,274,0.137,1.0
+gazette-royal-society,1,GPT-6.1 Sol,Qwen4-Max-Preview,ok,275,0,0.0,1.0
+gazette-royal-society,1,GPT-6.1 Sol,typhoon,ok,275,4,0.014545454545454545,0.8571428571428571
+gazette-royal-society,1,Qwen4-Max-Preview,typhoon,ok,275,4,0.014545454545454545,0.8571428571428571
+gazette-royal-society,1,GPT-6.1 Sol,text,ok,275,7,0.025454545454545455,1.0
+gazette-royal-society,1,Qwen4-Max-Preview,text,ok,275,7,0.025454545454545455,1.0
+gazette-royal-society,1,GPT-6.1 Sol,markdown,ok,275,3,0.01090909090909091,1.0
+gazette-royal-society,1,Qwen4-Max-Preview,markdown,ok,275,3,0.01090909090909091,1.0
+rd-pp30,2,GPT-6.1 Sol,typhoon,ok,7071,56,0.00791967189930703,1.0
+rd-pp30,2,GPT-6.1 Sol,text,ok,7071,5655,0.7997454391175223,0.9694323144104804
+rd-pp30,2,GPT-6.1 Sol,markdown,ok,7071,16,0.002262763399802008,0.9565217391304348
+rd-pp30-attach,1,GPT-6.1 Sol,typhoon,ok,756,302,0.3994708994708995,1.0
+rd-pp30-attach,1,GPT-6.1 Sol,text,ok,756,267,0.3531746031746032,0.7755102040816326
+rd-pp30-attach,1,GPT-6.1 Sol,markdown,ok,756,232,0.30687830687830686,1.0

@@ -1,0 +1,384 @@
+{
+  "rows": [
+    {
+      "document": "rd-pp30",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "Qwen4-Max-Preview",
+      "status": "ok",
+      "chars": 2434,
+      "edits": 200,
+      "cer": 0.08216926869350863,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "rd-pp30",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "typhoon",
+      "status": "length",
+      "chars": 2434,
+      "edits": 2434,
+      "cer": 1.0,
+      "numeric_f1": 0.0
+    },
+    {
+      "document": "rd-pp30",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "typhoon",
+      "status": "length",
+      "chars": 2322,
+      "edits": 2322,
+      "cer": 1.0,
+      "numeric_f1": 0.0
+    },
+    {
+      "document": "rd-pp30",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 2434,
+      "edits": 1046,
+      "cer": 0.42974527526705014,
+      "numeric_f1": 0.9210526315789473
+    },
+    {
+      "document": "rd-pp30",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 2322,
+      "edits": 988,
+      "cer": 0.425495262704565,
+      "numeric_f1": 0.9210526315789473
+    },
+    {
+      "document": "rd-pp30",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 2434,
+      "edits": 749,
+      "cer": 0.3077239112571898,
+      "numeric_f1": 0.8933333333333333
+    },
+    {
+      "document": "rd-pp30",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 2322,
+      "edits": 688,
+      "cer": 0.2962962962962963,
+      "numeric_f1": 0.8933333333333333
+    },
+    {
+      "document": "nso-labour-table",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "Qwen4-Max-Preview",
+      "status": "ok",
+      "chars": 2000,
+      "edits": 108,
+      "cer": 0.054,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "nso-labour-table",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "typhoon",
+      "status": "ok",
+      "chars": 2000,
+      "edits": 114,
+      "cer": 0.057,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "nso-labour-table",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "typhoon",
+      "status": "ok",
+      "chars": 2000,
+      "edits": 220,
+      "cer": 0.11,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "nso-labour-table",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 2000,
+      "edits": 136,
+      "cer": 0.068,
+      "numeric_f1": 0.9914529914529915
+    },
+    {
+      "document": "nso-labour-table",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 2000,
+      "edits": 242,
+      "cer": 0.121,
+      "numeric_f1": 0.9914529914529915
+    },
+    {
+      "document": "nso-labour-table",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 2000,
+      "edits": 166,
+      "cer": 0.083,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "nso-labour-table",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 2000,
+      "edits": 274,
+      "cer": 0.137,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "gazette-royal-society",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "Qwen4-Max-Preview",
+      "status": "ok",
+      "chars": 275,
+      "edits": 0,
+      "cer": 0.0,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "gazette-royal-society",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "typhoon",
+      "status": "ok",
+      "chars": 275,
+      "edits": 4,
+      "cer": 0.014545454545454545,
+      "numeric_f1": 0.8571428571428571
+    },
+    {
+      "document": "gazette-royal-society",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "typhoon",
+      "status": "ok",
+      "chars": 275,
+      "edits": 4,
+      "cer": 0.014545454545454545,
+      "numeric_f1": 0.8571428571428571
+    },
+    {
+      "document": "gazette-royal-society",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 275,
+      "edits": 7,
+      "cer": 0.025454545454545455,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "gazette-royal-society",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 275,
+      "edits": 7,
+      "cer": 0.025454545454545455,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "gazette-royal-society",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 275,
+      "edits": 3,
+      "cer": 0.01090909090909091,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "gazette-royal-society",
+      "page": 1,
+      "reference": "Qwen4-Max-Preview",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 275,
+      "edits": 3,
+      "cer": 0.01090909090909091,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "rd-pp30",
+      "page": 2,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "typhoon",
+      "status": "ok",
+      "chars": 7071,
+      "edits": 56,
+      "cer": 0.00791967189930703,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "rd-pp30",
+      "page": 2,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 7071,
+      "edits": 5655,
+      "cer": 0.7997454391175223,
+      "numeric_f1": 0.9694323144104804
+    },
+    {
+      "document": "rd-pp30",
+      "page": 2,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 7071,
+      "edits": 16,
+      "cer": 0.002262763399802008,
+      "numeric_f1": 0.9565217391304348
+    },
+    {
+      "document": "rd-pp30-attach",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "typhoon",
+      "status": "ok",
+      "chars": 756,
+      "edits": 302,
+      "cer": 0.3994708994708995,
+      "numeric_f1": 1.0
+    },
+    {
+      "document": "rd-pp30-attach",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "text",
+      "status": "ok",
+      "chars": 756,
+      "edits": 267,
+      "cer": 0.3531746031746032,
+      "numeric_f1": 0.7755102040816326
+    },
+    {
+      "document": "rd-pp30-attach",
+      "page": 1,
+      "reference": "GPT-6.1 Sol",
+      "candidate": "markdown",
+      "status": "ok",
+      "chars": 756,
+      "edits": 232,
+      "cer": 0.30687830687830686,
+      "numeric_f1": 1.0
+    }
+  ],
+  "five_page_ocr_summary": {
+    "typhoon": {
+      "pages": 5,
+      "cer": 0.23213146139119337,
+      "failed_pages": 1
+    },
+    "text": {
+      "pages": 5,
+      "cer": 0.5672463305679643,
+      "failed_pages": 0
+    },
+    "markdown": {
+      "pages": 5,
+      "cer": 0.09301212507977026,
+      "failed_pages": 0
+    }
+  },
+  "visible_table_cells": {
+    "Qwen4-Max-Preview": {
+      "Total": {
+        "expected_quarters": [
+          "59,096.5",
+          "59,169.1",
+          "59,238.5",
+          "59,297.8"
+        ],
+        "found_quarters": [
+          "59,096.5",
+          "59,169.1",
+          "59,238.5",
+          "59,297.8"
+        ],
+        "correct_in_order": 4
+      },
+      "Total labour force": {
+        "expected_quarters": [
+          "40,226.4",
+          "40,178.1",
+          "40,484.1",
+          "40,537.7"
+        ],
+        "found_quarters": [
+          "40,226.4",
+          "40,178.1",
+          "40,484.1",
+          "40,537.7"
+        ],
+        "correct_in_order": 4
+      }
+    },
+    "GPT-6.1 Sol": {
+      "Total": {
+        "expected_quarters": [
+          "59,096.5",
+          "59,169.1",
+          "59,238.5",
+          "59,297.8"
+        ],
+        "found_quarters": [
+          "59,096.5",
+          "59,169.1",
+          "59,238.5",
+          "59,297.8"
+        ],
+        "correct_in_order": 4
+      },
+      "Total labour force": {
+        "expected_quarters": [
+          "40,226.4",
+          "40,178.1",
+          "40,484.1",
+          "40,537.7"
+        ],
+        "found_quarters": [
+          "40,226.4",
+          "40,178.1",
+          "40,484.1",
+          "40,537.7"
+        ],
+        "correct_in_order": 4
+      }
+    }
+  }
+}
