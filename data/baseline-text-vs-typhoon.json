@@ -1,0 +1,199 @@
+{
+  "expected_pages": 293,
+  "reference_model": "gpt-6.1-sol",
+  "dpi": 200,
+  "normalization": "NFKC; ignore whitespace and zero-width separators; flatten Typhoon layout markup",
+  "ocr_runtime": {
+    "openthai": "OpenVINO CPU, 1 thread",
+    "typhoon": "vLLM BF16, local GPU, up to 4 requests queued"
+  },
+  "cer_weighting": "Micro-average over readable characters. GPT-marked unreadable spans absorb a contiguous prediction span at zero cost; this can understate errors near them. Blank-page insertions are reported separately.",
+  "result": {
+    "compared_pages": 293,
+    "pages_with_cer": 286,
+    "blank_pages": 7,
+    "pages_with_unreadable_reference": 13,
+    "scored_reference_chars": 367346,
+    "openthai": {
+      "cer": 0.07981031507080519,
+      "edits": 29318,
+      "cer_on_unmasked_pages": 0.07596056076758448,
+      "pages_with_output_failure": 0,
+      "blank_pages_with_extraneous_text": 0,
+      "extraneous_characters_on_blank_pages": 0,
+      "median_request_wall_seconds": 0.26636164899537107
+    },
+    "typhoon": {
+      "cer": 0.05066612948010867,
+      "edits": 18612,
+      "cer_on_unmasked_pages": 0.04406236767895566,
+      "pages_with_output_failure": 1,
+      "blank_pages_with_extraneous_text": 0,
+      "extraneous_characters_on_blank_pages": 0,
+      "median_request_wall_seconds": 4.545565298001748
+    }
+  },
+  "by_document": {
+    "bot-financial-statement-2568": {
+      "compared_pages": 82,
+      "pages_with_cer": 82,
+      "blank_pages": 0,
+      "pages_with_unreadable_reference": 8,
+      "scored_reference_chars": 116526,
+      "openthai": {
+        "cer": 0.02203800010298131,
+        "edits": 2568,
+        "cer_on_unmasked_pages": 0.024794850375902903,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 0.29245238800285733
+      },
+      "typhoon": {
+        "cer": 0.007157200968024304,
+        "edits": 834,
+        "cer_on_unmasked_pages": 0.00708564689695838,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 5.190535732996068
+      }
+    },
+    "bot-payment-supervisory-data": {
+      "compared_pages": 33,
+      "pages_with_cer": 33,
+      "blank_pages": 0,
+      "pages_with_unreadable_reference": 2,
+      "scored_reference_chars": 27973,
+      "openthai": {
+        "cer": 0.5256497336717549,
+        "edits": 14704,
+        "cer_on_unmasked_pages": 0.5258684261595187,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 0.2448077969966107
+      },
+      "typhoon": {
+        "cer": 0.18546455510671003,
+        "edits": 5188,
+        "cer_on_unmasked_pages": 0.18571705802445176,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 4.536963571998058
+      }
+    },
+    "budget-2569": {
+      "compared_pages": 144,
+      "pages_with_cer": 137,
+      "blank_pages": 7,
+      "pages_with_unreadable_reference": 1,
+      "scored_reference_chars": 170526,
+      "openthai": {
+        "cer": 0.027649742561251658,
+        "edits": 4715,
+        "cer_on_unmasked_pages": 0.027558500967685178,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 0.2438893200014718
+      },
+      "typhoon": {
+        "cer": 0.050033425987825904,
+        "edits": 8532,
+        "cer_on_unmasked_pages": 0.04994428479268078,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 3.554172521999135
+      }
+    },
+    "gazette-bot-85788": {
+      "compared_pages": 15,
+      "pages_with_cer": 15,
+      "blank_pages": 0,
+      "pages_with_unreadable_reference": 0,
+      "scored_reference_chars": 28676,
+      "openthai": {
+        "cer": 0.014227925791602734,
+        "edits": 408,
+        "cer_on_unmasked_pages": 0.014227925791602734,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 0.3170653410052182
+      },
+      "typhoon": {
+        "cer": 0.012972520574696611,
+        "edits": 372,
+        "cer_on_unmasked_pages": 0.012972520574696611,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 4.781738345001941
+      }
+    },
+    "gazette-siam-2475-scan": {
+      "compared_pages": 14,
+      "pages_with_cer": 14,
+      "blank_pages": 0,
+      "pages_with_unreadable_reference": 1,
+      "scored_reference_chars": 9720,
+      "openthai": {
+        "cer": 0.03137860082304527,
+        "edits": 305,
+        "cer_on_unmasked_pages": 0.030608957147459995,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 0.23599864250354585
+      },
+      "typhoon": {
+        "cer": 0.013374485596707819,
+        "edits": 130,
+        "cer_on_unmasked_pages": 0.013102781656105681,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 2.4237298180050857
+      }
+    },
+    "rd-pit90-91-2568-deductions": {
+      "compared_pages": 5,
+      "pages_with_cer": 5,
+      "blank_pages": 0,
+      "pages_with_unreadable_reference": 1,
+      "scored_reference_chars": 13925,
+      "openthai": {
+        "cer": 0.47526032315978456,
+        "edits": 6618,
+        "cer_on_unmasked_pages": 0.44008968609865473,
+        "pages_with_output_failure": 0,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 0.4258285270043416
+      },
+      "typhoon": {
+        "cer": 0.2553680430879713,
+        "edits": 3556,
+        "cer_on_unmasked_pages": 0.07004484304932736,
+        "pages_with_output_failure": 1,
+        "blank_pages_with_extraneous_text": 0,
+        "extraneous_characters_on_blank_pages": 0,
+        "median_request_wall_seconds": 15.068536213999323
+      }
+    }
+  },
+  "typhoon_retry_sensitivity": {
+    "document": "rd-pit90-91-2568-deductions",
+    "page": 1,
+    "primary_status": "truncated",
+    "retry_parameters": {
+      "repetition_penalty": 1.05,
+      "max_tokens": 12000
+    },
+    "retry_page_cer": 0.5906306306306306,
+    "overall_cer_with_retry": 0.04757367713273045
+  }
+}

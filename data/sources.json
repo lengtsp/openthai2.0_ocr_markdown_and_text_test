@@ -1,0 +1,94 @@
+{
+  "documents": [
+    {
+      "file": "bot-financial-statement-2568.pdf",
+      "source": "https://www.bot.or.th/th/research-and-publications/reports/annual-report/report-2025.html",
+      "pages": 82,
+      "text_extractable": false,
+      "starter_pages_1_based": [
+        4,
+        7,
+        10,
+        22
+      ],
+      "focus": "Modern image-only scan: paragraphs, financial statements, signs and decimal amounts",
+      "sha256": "c19419421ff88b17cd5b844f688a35f717c1790af1706d246931ea9a1e9aa3df"
+    },
+    {
+      "file": "bot-payment-supervisory-data.pdf",
+      "source": "https://www.bot.or.th/content/dam/bot/documents/th/our-roles/payment-systems/payment/payment-all-hearing/payment-supervisory-data.pdf",
+      "pages": 33,
+      "text_extractable": true,
+      "starter_pages_1_based": [
+        5,
+        11,
+        17,
+        18
+      ],
+      "focus": "Slides: reading order, Thai and English labels, footnotes",
+      "sha256": "059b660cc6fdd580f47e2004b1e28c0775a4de1c32e05fc8ca091e92e2a76aa1"
+    },
+    {
+      "file": "budget-2569.pdf",
+      "source": "https://www.bb.go.th/topic-detail.php?catID=0&id=17707&mid=544",
+      "pages": 144,
+      "text_extractable": true,
+      "starter_pages_1_based": [
+        6,
+        94,
+        113,
+        121
+      ],
+      "focus": "Dense sideways tables and numeric values; page 6 is a blank false-positive control",
+      "sha256": "512e83faa5f1d7c5665fd41c2b7ea55be3f96fcdacd88fe7b548fef8da249ab2"
+    },
+    {
+      "file": "gazette-bot-85788.pdf",
+      "source": "https://ratchakitcha.soc.go.th/documents/85788.pdf",
+      "pages": 15,
+      "text_extractable": true,
+      "starter_pages_1_based": [
+        1,
+        2,
+        7,
+        15
+      ],
+      "focus": "Legal prose, Thai numerals, small type, appendix form",
+      "sha256": "aa41506c60c2d159afda4ee3017a72f5795156ec81c5b3bb8e33a4172b412ab8"
+    },
+    {
+      "file": "gazette-siam-2475-scan.pdf",
+      "source": "https://commons.wikimedia.org/wiki/File:พระราชธรรมนูญการปกครองแผ่นดินสยามชั่วคราว_พุทธศักราช_๒๔๗๕.pdf",
+      "pages": 14,
+      "text_extractable": false,
+      "starter_pages_1_based": [
+        1,
+        4,
+        8,
+        12
+      ],
+      "focus": "Historical image-only scan: low contrast, noise, vintage Thai print",
+      "sha256": "a17d6f44e234b601cc903dee4f48774156321a096dae8de1d7ba4e9a5b03dee7"
+    },
+    {
+      "file": "rd-pit90-91-2568-deductions.pdf",
+      "source": "https://www.rd.go.th/67335.html",
+      "pages": 5,
+      "text_extractable": true,
+      "starter_pages_1_based": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "focus": "Blank tax forms: labels, checkboxes, layout and monetary amounts",
+      "sha256": "e47796b2b5a5e253407dc6e1d0accebb0ebcf18456ff5ee08396c487786e84e5"
+    }
+  ],
+  "starter_sample_count": 24,
+  "blank_control": {
+    "file": "budget-2569.pdf",
+    "page": 6
+  },
+  "page_numbering": "1-based physical PDF pages"
+}
