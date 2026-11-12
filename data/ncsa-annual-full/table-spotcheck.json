@@ -1,0 +1,244 @@
+{
+  "32": {
+    "expected_cells": 9,
+    "typhoon": {
+      "rows": {
+        "5/2566": {
+          "expected": [
+            "12",
+            "0",
+            "100"
+          ],
+          "found": [
+            "12",
+            "0",
+            "100"
+          ],
+          "matches": 3
+        },
+        "3/2567": {
+          "expected": [
+            "8",
+            "3",
+            "75"
+          ],
+          "found": [
+            "8",
+            "3",
+            "75"
+          ],
+          "matches": 3
+        },
+        "6/2567": {
+          "expected": [
+            "10",
+            "2",
+            "80"
+          ],
+          "found": [
+            "10",
+            "2",
+            "80"
+          ],
+          "matches": 3
+        }
+      },
+      "right_column_labels": [
+        "ผู้เข้าร่วม Participants",
+        "ผู้ไม่เข้าร่วม Absentees",
+        "ร้อยละผู้เข้าร่วม Participation Rate (%)"
+      ],
+      "position_correct": 9,
+      "position_and_header_correct": 9
+    },
+    "markdown": {
+      "rows": {
+        "5/2566": {
+          "expected": [
+            "12",
+            "0",
+            "100"
+          ],
+          "found": [
+            "12",
+            "0",
+            "100"
+          ],
+          "matches": 3
+        },
+        "3/2567": {
+          "expected": [
+            "8",
+            "3",
+            "75"
+          ],
+          "found": [
+            "8",
+            "3",
+            "75"
+          ],
+          "matches": 3
+        },
+        "6/2567": {
+          "expected": [
+            "10",
+            "2",
+            "80"
+          ],
+          "found": [
+            "10",
+            "2",
+            "80"
+          ],
+          "matches": 3
+        }
+      },
+      "right_column_labels": [
+        "ผู้เข้าร่วม Participants",
+        "ผู้ไม่เข้าร่วม Absentees",
+        "ร้อยละผู้เข้าร่วม Participation Rate (%)"
+      ],
+      "position_correct": 9,
+      "position_and_header_correct": 9
+    },
+    "text": {
+      "number_presence_anywhere_on_page": 7
+    }
+  },
+  "82": {
+    "expected_cells": 4,
+    "typhoon": {
+      "rows": {
+        "พิจารณา": {
+          "expected": [
+            "30",
+            "47"
+          ],
+          "found": [
+            "30",
+            "47"
+          ],
+          "matches": 2
+        },
+        "รวม": {
+          "expected": [
+            "351",
+            "448"
+          ],
+          "found": [
+            "351",
+            "448"
+          ],
+          "matches": 2
+        }
+      },
+      "right_column_labels": [
+        "Bilateral",
+        "Multilateral"
+      ],
+      "position_correct": 4,
+      "position_and_header_correct": 4
+    },
+    "markdown": {
+      "rows": {},
+      "right_column_labels": [],
+      "position_correct": 0,
+      "position_and_header_correct": 0
+    },
+    "text": {
+      "number_presence_anywhere_on_page": 4
+    }
+  },
+  "134": {
+    "expected_cells": 6,
+    "typhoon": {
+      "rows": {
+        "รวมรายได้": {
+          "expected": [
+            "608,286,286.00",
+            "433,544,211.53"
+          ],
+          "found": [
+            "608,286,286.00",
+            "433,544,211.53"
+          ],
+          "matches": 2
+        },
+        "รวมค่าใช้จ่าย": {
+          "expected": [
+            "414,827,667.83",
+            "283,448,314.13"
+          ],
+          "found": [
+            "414,827,667.83",
+            "283,448,314.13"
+          ],
+          "matches": 2
+        },
+        "รายได้สูงกว่าค่าใช้จ่ายสุทธิ": {
+          "expected": [
+            "193,458,618.17",
+            "150,095,897.40"
+          ],
+          "found": [
+            "193,458,618.17",
+            "150,095,897.40"
+          ],
+          "matches": 2
+        }
+      },
+      "right_column_labels": [
+        "2567",
+        "2566"
+      ],
+      "position_correct": 6,
+      "position_and_header_correct": 6
+    },
+    "markdown": {
+      "rows": {
+        "รวมรายได้": {
+          "expected": [
+            "608,286,286.00",
+            "433,544,211.53"
+          ],
+          "found": [
+            "608,286,286.00",
+            "433,544,211.53"
+          ],
+          "matches": 2
+        },
+        "รวมค่าใช้จ่าย": {
+          "expected": [
+            "414,827,667.83",
+            "283,448,314.13"
+          ],
+          "found": [
+            "414,827,667.83",
+            "283,448,314.13"
+          ],
+          "matches": 2
+        },
+        "รายได้สูงกว่าค่าใช้จ่ายสุทธิ": {
+          "expected": [
+            "193,458,618.17",
+            "150,095,897.40"
+          ],
+          "found": [
+            "193,458,618.17",
+            "150,095,897.40"
+          ],
+          "matches": 2
+        }
+      },
+      "right_column_labels": [
+        "2567",
+        "2566"
+      ],
+      "position_correct": 6,
+      "position_and_header_correct": 6
+    },
+    "text": {
+      "number_presence_anywhere_on_page": 6
+    }
+  }
+}
