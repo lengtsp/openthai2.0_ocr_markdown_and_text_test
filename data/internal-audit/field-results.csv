@@ -1,0 +1,1351 @@
+﻿document,variant,model,row_id,field,expected,observed,found_anywhere,exact_position
+payment,1,typhoon,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,1,typhoon,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,1,typhoon,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,1,typhoon,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,1,typhoon,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,typhoon,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,1,typhoon,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,1,typhoon,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,1,typhoon,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,1,typhoon,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,typhoon,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,1,typhoon,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,1,typhoon,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,1,typhoon,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,1,typhoon,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,1,typhoon,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,1,typhoon,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,1,typhoon,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,1,typhoon,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,1,typhoon,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,1,typhoon,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,1,typhoon,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,1,typhoon,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,1,typhoon,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,1,typhoon,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,typhoon,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,1,typhoon,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,1,typhoon,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,1,typhoon,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,1,typhoon,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,openthai,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,1,openthai,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,1,openthai,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,1,openthai,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,1,openthai,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,openthai,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,1,openthai,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,1,openthai,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,1,openthai,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,1,openthai,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,openthai,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,1,openthai,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,1,openthai,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,1,openthai,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,1,openthai,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,1,openthai,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,1,openthai,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,1,openthai,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,1,openthai,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,1,openthai,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,1,openthai,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,1,openthai,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,1,openthai,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,1,openthai,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,1,openthai,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,openthai,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,1,openthai,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,1,openthai,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,1,openthai,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,1,openthai,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,markdown,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,1,markdown,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,1,markdown,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,1,markdown,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,1,markdown,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,markdown,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,1,markdown,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,1,markdown,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,1,markdown,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,1,markdown,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,markdown,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,1,markdown,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,1,markdown,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,1,markdown,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,1,markdown,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,1,markdown,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,1,markdown,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,1,markdown,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,1,markdown,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,1,markdown,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,1,markdown,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,1,markdown,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,1,markdown,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,1,markdown,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,1,markdown,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,1,markdown,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,1,markdown,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,1,markdown,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,1,markdown,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,1,markdown,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,typhoon,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,2,typhoon,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,2,typhoon,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,2,typhoon,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,2,typhoon,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,typhoon,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,2,typhoon,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,2,typhoon,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,2,typhoon,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,2,typhoon,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,typhoon,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,2,typhoon,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,2,typhoon,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,2,typhoon,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,2,typhoon,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,2,typhoon,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,2,typhoon,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,2,typhoon,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,2,typhoon,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,2,typhoon,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,2,typhoon,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,2,typhoon,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,2,typhoon,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,2,typhoon,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,2,typhoon,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,typhoon,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,2,typhoon,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,2,typhoon,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,2,typhoon,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,2,typhoon,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,openthai,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,2,openthai,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,2,openthai,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,2,openthai,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,2,openthai,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,openthai,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,2,openthai,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,2,openthai,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,2,openthai,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,2,openthai,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,openthai,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,2,openthai,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,2,openthai,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,2,openthai,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,2,openthai,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,2,openthai,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,2,openthai,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,2,openthai,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,2,openthai,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,2,openthai,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,2,openthai,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,2,openthai,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,2,openthai,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,2,openthai,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,2,openthai,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,openthai,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,2,openthai,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-O0814,False,False
+payment,2,openthai,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,2,openthai,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,2,openthai,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,markdown,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,2,markdown,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,2,markdown,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,2,markdown,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,2,markdown,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,markdown,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,2,markdown,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,2,markdown,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,2,markdown,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,2,markdown,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,markdown,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,2,markdown,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,2,markdown,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,2,markdown,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,2,markdown,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,2,markdown,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,2,markdown,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,2,markdown,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,2,markdown,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,2,markdown,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,2,markdown,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,2,markdown,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,2,markdown,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,2,markdown,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,2,markdown,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,2,markdown,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,2,markdown,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,2,markdown,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,2,markdown,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,2,markdown,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,typhoon,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,3,typhoon,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,3,typhoon,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,3,typhoon,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,3,typhoon,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,typhoon,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,3,typhoon,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,3,typhoon,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,3,typhoon,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,3,typhoon,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,typhoon,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,3,typhoon,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,3,typhoon,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,3,typhoon,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,3,typhoon,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,3,typhoon,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,3,typhoon,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,3,typhoon,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,3,typhoon,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,3,typhoon,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,3,typhoon,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,3,typhoon,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,3,typhoon,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,3,typhoon,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,3,typhoon,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,typhoon,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,3,typhoon,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,3,typhoon,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,3,typhoon,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,3,typhoon,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,openthai,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,3,openthai,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,3,openthai,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,3,openthai,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,3,openthai,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,openthai,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,3,openthai,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,3,openthai,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,3,openthai,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,3,openthai,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,openthai,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,3,openthai,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,3,openthai,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,3,openthai,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,3,openthai,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,3,openthai,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,3,openthai,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,3,openthai,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,3,openthai,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,3,openthai,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,3,openthai,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,3,openthai,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,3,openthai,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,3,openthai,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609,00",False,False
+payment,3,openthai,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,openthai,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,3,openthai,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,3,openthai,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,3,openthai,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,3,openthai,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,markdown,PV-1041,เลขที่รายการ,PV-1041,PV-1041,True,True
+payment,3,markdown,PV-1041,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,3,markdown,PV-1041,วันที่จ่าย,04/09/2569,04/09/2569,True,True
+payment,3,markdown,PV-1041,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,3,markdown,PV-1041,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,markdown,PV-1042,เลขที่รายการ,PV-1042,PV-1042,True,True
+payment,3,markdown,PV-1042,เลขใบแจ้งหนี้,INV-0718,INV-0718,True,True
+payment,3,markdown,PV-1042,วันที่จ่าย,05/09/2569,05/09/2569,True,True
+payment,3,markdown,PV-1042,ยอดสุทธิ (บาท),"18,950.00","18,950.00",True,True
+payment,3,markdown,PV-1042,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,markdown,PV-1043,เลขที่รายการ,PV-1043,PV-1043,True,True
+payment,3,markdown,PV-1043,เลขใบแจ้งหนี้,INV-0781,INV-0781,True,True
+payment,3,markdown,PV-1043,วันที่จ่าย,06/09/2569,06/09/2569,True,True
+payment,3,markdown,PV-1043,ยอดสุทธิ (บาท),"96,810.50","96,810.50",True,True
+payment,3,markdown,PV-1043,สถานะอนุมัติ,ไม่อนุมัติ,ไม่อนุมัติ,True,True
+payment,3,markdown,PV-1044,เลขที่รายการ,PV-1044,PV-1044,True,True
+payment,3,markdown,PV-1044,เลขใบแจ้งหนี้,INV-0817,INV-0817,True,True
+payment,3,markdown,PV-1044,วันที่จ่าย,08/09/2569,08/09/2569,True,True
+payment,3,markdown,PV-1044,ยอดสุทธิ (บาท),"8,690.50","8,690.50",True,True
+payment,3,markdown,PV-1044,สถานะอนุมัติ,รออนุมัติ,รออนุมัติ,True,True
+payment,3,markdown,PV-1045,เลขที่รายการ,PV-1045,PV-1045,True,True
+payment,3,markdown,PV-1045,เลขใบแจ้งหนี้,INV-0841,INV-0841,True,True
+payment,3,markdown,PV-1045,วันที่จ่าย,10/09/2569,10/09/2569,True,True
+payment,3,markdown,PV-1045,ยอดสุทธิ (บาท),"108,609.00","108,609.00",True,True
+payment,3,markdown,PV-1045,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+payment,3,markdown,PV-1046,เลขที่รายการ,PV-1046,PV-1046,True,True
+payment,3,markdown,PV-1046,เลขใบแจ้งหนี้,INV-0814,INV-0814,True,True
+payment,3,markdown,PV-1046,วันที่จ่าย,11/09/2569,11/09/2569,True,True
+payment,3,markdown,PV-1046,ยอดสุทธิ (บาท),"9,600.00","9,600.00",True,True
+payment,3,markdown,PV-1046,สถานะอนุมัติ,อนุมัติ,อนุมัติ,True,True
+reconciliation,1,typhoon,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,1,typhoon,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,1,typhoon,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,1,typhoon,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,1,typhoon,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,1,typhoon,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,1,typhoon,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,1,typhoon,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,1,typhoon,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,1,typhoon,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,1,typhoon,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,1,typhoon,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,1,typhoon,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,1,typhoon,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,1,typhoon,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,1,typhoon,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,1,typhoon,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,1,typhoon,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,1,typhoon,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,1,typhoon,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,1,typhoon,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,1,typhoon,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,1,typhoon,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,1,typhoon,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,1,typhoon,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,1,typhoon,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,1,typhoon,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,1,typhoon,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,1,typhoon,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,1,typhoon,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,1,openthai,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,1,openthai,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,1,openthai,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,1,openthai,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,1,openthai,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,1,openthai,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,1,openthai,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,1,openthai,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,1,openthai,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,1,openthai,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,1,openthai,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,1,openthai,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,1,openthai,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,1,openthai,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,1,openthai,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,1,openthai,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,1,openthai,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,1,openthai,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,1,openthai,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,1,openthai,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,1,openthai,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,1,openthai,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,1,openthai,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,1,openthai,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,1,openthai,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,1,openthai,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,1,openthai,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,1,openthai,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,1,openthai,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,1,openthai,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,1,markdown,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,1,markdown,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,1,markdown,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,1,markdown,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,1,markdown,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,1,markdown,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,1,markdown,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,1,markdown,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,1,markdown,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,1,markdown,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,1,markdown,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,1,markdown,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,1,markdown,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,1,markdown,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,1,markdown,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,1,markdown,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,1,markdown,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,1,markdown,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,1,markdown,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,1,markdown,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,1,markdown,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,1,markdown,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,1,markdown,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,1,markdown,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,1,markdown,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,1,markdown,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,1,markdown,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,1,markdown,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,1,markdown,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,1,markdown,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,2,typhoon,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,2,typhoon,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,2,typhoon,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,2,typhoon,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,2,typhoon,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,2,typhoon,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,2,typhoon,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,2,typhoon,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,2,typhoon,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,2,typhoon,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,2,typhoon,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,2,typhoon,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,2,typhoon,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,2,typhoon,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,2,typhoon,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,2,typhoon,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,2,typhoon,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,2,typhoon,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,2,typhoon,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,2,typhoon,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,2,typhoon,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,2,typhoon,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,2,typhoon,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,2,typhoon,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,2,typhoon,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,2,typhoon,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,2,typhoon,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,2,typhoon,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,2,typhoon,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,2,typhoon,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,2,openthai,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,2,openthai,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,2,openthai,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,2,openthai,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,2,openthai,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,2,openthai,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,2,openthai,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,2,openthai,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,2,openthai,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,2,openthai,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,2,openthai,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,2,openthai,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,2,openthai,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,2,openthai,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,2,openthai,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,2,openthai,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,2,openthai,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,2,openthai,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,2,openthai,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,2,openthai,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,2,openthai,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,2,openthai,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,2,openthai,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,2,openthai,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,2,openthai,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,2,openthai,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,2,openthai,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,2,openthai,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,2,openthai,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,2,openthai,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,2,markdown,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,2,markdown,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,2,markdown,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,2,markdown,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,2,markdown,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,2,markdown,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,2,markdown,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,2,markdown,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,2,markdown,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,2,markdown,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,2,markdown,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,2,markdown,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,2,markdown,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,2,markdown,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,2,markdown,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,2,markdown,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,2,markdown,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,2,markdown,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,2,markdown,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,2,markdown,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,2,markdown,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,2,markdown,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,2,markdown,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,2,markdown,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,2,markdown,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,2,markdown,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,2,markdown,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,2,markdown,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,2,markdown,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,2,markdown,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,3,typhoon,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,3,typhoon,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,3,typhoon,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,3,typhoon,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,3,typhoon,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,3,typhoon,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,3,typhoon,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,3,typhoon,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,3,typhoon,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,3,typhoon,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,3,typhoon,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,3,typhoon,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,3,typhoon,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,3,typhoon,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,3,typhoon,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,3,typhoon,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,3,typhoon,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,3,typhoon,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,3,typhoon,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,3,typhoon,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,3,typhoon,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,3,typhoon,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,3,typhoon,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,3,typhoon,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,3,typhoon,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,3,typhoon,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,3,typhoon,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,3,typhoon,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,3,typhoon,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,3,typhoon,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,3,openthai,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,3,openthai,BR-051,รายการ,ยอดยกมา,ยอดยกุมา,False,False
+reconciliation,3,openthai,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,3,openthai,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,3,openthai,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,3,openthai,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,3,openthai,BR-052,รายการ,เช็คค้างจ่าย,เช็คค้างจ่าย,True,True
+reconciliation,3,openthai,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,3,openthai,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,3,openthai,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,3,openthai,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,3,openthai,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,3,openthai,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,3,openthai,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,3,openthai,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,3,openthai,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,3,openthai,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,3,openthai,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,3,openthai,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,3,openthai,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,3,openthai,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,3,openthai,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,3,openthai,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,3,openthai,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,3,openthai,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,3,openthai,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,3,openthai,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,3,openthai,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,3,openthai,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,3,openthai,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+reconciliation,3,markdown,BR-051,เลขอ้างอิง,BR-051,BR-051,True,True
+reconciliation,3,markdown,BR-051,รายการ,ยอดยกมา,ยอดยกมา,True,True
+reconciliation,3,markdown,BR-051,ยอดบัญชี (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,3,markdown,BR-051,ยอดธนาคาร (บาท),"1,205,680.00","1,205,680.00",True,True
+reconciliation,3,markdown,BR-051,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,3,markdown,BR-052,เลขอ้างอิง,BR-052,BR-052,True,True
+reconciliation,3,markdown,BR-052,รายการ,เช็คค้างจ่าย,เช็คต้างจ่าย,False,False
+reconciliation,3,markdown,BR-052,ยอดบัญชี (บาท),"82,460.00","82,460.00",True,True
+reconciliation,3,markdown,BR-052,ยอดธนาคาร (บาท),0.00,0.00,True,True
+reconciliation,3,markdown,BR-052,ผลต่าง (บาท),"-82,460.00","-82,460.00",True,True
+reconciliation,3,markdown,BR-053,เลขอ้างอิง,BR-053,BR-053,True,True
+reconciliation,3,markdown,BR-053,รายการ,เงินฝากระหว่างทาง,เงินฝากระหว่างทาง,True,True
+reconciliation,3,markdown,BR-053,ยอดบัญชี (บาท),0.00,0.00,True,True
+reconciliation,3,markdown,BR-053,ยอดธนาคาร (บาท),"38,750.25","38,750.25",True,True
+reconciliation,3,markdown,BR-053,ผลต่าง (บาท),"38,750.25","38,750.25",True,True
+reconciliation,3,markdown,BR-054,เลขอ้างอิง,BR-054,BR-054,True,True
+reconciliation,3,markdown,BR-054,รายการ,ค่าธรรมเนียม,ค่าธรรมเนียม,True,True
+reconciliation,3,markdown,BR-054,ยอดบัญชี (บาท),"2,190.00","2,190.00",True,True
+reconciliation,3,markdown,BR-054,ยอดธนาคาร (บาท),"2,910.00","2,910.00",True,True
+reconciliation,3,markdown,BR-054,ผลต่าง (บาท),720.00,720.00,True,True
+reconciliation,3,markdown,BR-055,เลขอ้างอิง,BR-055,BR-055,True,True
+reconciliation,3,markdown,BR-055,รายการ,ดอกเบี้ยรับ,ดอกเบี้ยรับ,True,True
+reconciliation,3,markdown,BR-055,ยอดบัญชี (บาท),416.08,416.08,True,True
+reconciliation,3,markdown,BR-055,ยอดธนาคาร (บาท),416.08,416.08,True,True
+reconciliation,3,markdown,BR-055,ผลต่าง (บาท),0.00,0.00,True,True
+reconciliation,3,markdown,BR-056,เลขอ้างอิง,BR-056,BR-056,True,True
+reconciliation,3,markdown,BR-056,รายการ,รายการปรับปรุง,รายการปรับปรุง,True,True
+reconciliation,3,markdown,BR-056,ยอดบัญชี (บาท),"27,008.09","27,008.09",True,True
+reconciliation,3,markdown,BR-056,ยอดธนาคาร (บาท),"26,908.09","26,908.09",True,True
+reconciliation,3,markdown,BR-056,ผลต่าง (บาท),-100.00,-100.00,True,True
+procurement,1,typhoon,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,1,typhoon,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,1,typhoon,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,1,typhoon,PO-3101,จำนวนรับ,18,18,True,True
+procurement,1,typhoon,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,1,typhoon,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,1,typhoon,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,1,typhoon,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,1,typhoon,PO-3102,จำนวนรับ,56,56,True,True
+procurement,1,typhoon,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,1,typhoon,PO-3103,เลขที่ PO,PO-3103,PO-3103,True,True
+procurement,1,typhoon,PO-3103,เลขใบรับ,ไม่พบ,ไม่พบ,True,True
+procurement,1,typhoon,PO-3103,จำนวนสั่ง,12,12,True,True
+procurement,1,typhoon,PO-3103,จำนวนรับ,0,0,True,True
+procurement,1,typhoon,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00","39,800.00",True,True
+procurement,1,typhoon,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,1,typhoon,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,1,typhoon,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,1,typhoon,PO-3104,จำนวนรับ,80,80,True,True
+procurement,1,typhoon,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,1,typhoon,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,1,typhoon,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,1,typhoon,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,1,typhoon,PO-3105,จำนวนรับ,26,26,True,True
+procurement,1,typhoon,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900.00",True,True
+procurement,1,typhoon,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,1,typhoon,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,1,typhoon,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,1,typhoon,PO-3106,จำนวนรับ,108,108,True,True
+procurement,1,typhoon,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,1,openthai,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,1,openthai,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,1,openthai,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,1,openthai,PO-3101,จำนวนรับ,18,18,True,True
+procurement,1,openthai,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,1,openthai,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,1,openthai,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,1,openthai,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,1,openthai,PO-3102,จำนวนรับ,56,56,True,True
+procurement,1,openthai,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,1,openthai,PO-3103,เลขที่ PO,PO-3103,,True,False
+procurement,1,openthai,PO-3103,เลขใบรับ,ไม่พบ,,True,False
+procurement,1,openthai,PO-3103,จำนวนสั่ง,12,,True,False
+procurement,1,openthai,PO-3103,จำนวนรับ,0,,False,False
+procurement,1,openthai,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00",,True,False
+procurement,1,openthai,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,1,openthai,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,1,openthai,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,1,openthai,PO-3104,จำนวนรับ,80,80,True,True
+procurement,1,openthai,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,1,openthai,PO-3105,เลขที่ PO,PO-3105,,True,False
+procurement,1,openthai,PO-3105,เลขใบรับ,GR-4005,,True,False
+procurement,1,openthai,PO-3105,จำนวนสั่ง,26,,True,False
+procurement,1,openthai,PO-3105,จำนวนรับ,26,,True,False
+procurement,1,openthai,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00",,True,False
+procurement,1,openthai,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,1,openthai,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,1,openthai,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,1,openthai,PO-3106,จำนวนรับ,108,108,True,True
+procurement,1,openthai,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,1,markdown,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,1,markdown,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,1,markdown,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,1,markdown,PO-3101,จำนวนรับ,18,18,True,True
+procurement,1,markdown,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,1,markdown,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,1,markdown,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,1,markdown,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,1,markdown,PO-3102,จำนวนรับ,56,56,True,True
+procurement,1,markdown,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,1,markdown,PO-3103,เลขที่ PO,PO-3103,PO-3103,True,True
+procurement,1,markdown,PO-3103,เลขใบรับ,ไม่พบ,ไม่พบ,True,True
+procurement,1,markdown,PO-3103,จำนวนสั่ง,12,12,True,True
+procurement,1,markdown,PO-3103,จำนวนรับ,0,0,True,True
+procurement,1,markdown,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00","39,800.00",True,True
+procurement,1,markdown,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,1,markdown,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,1,markdown,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,1,markdown,PO-3104,จำนวนรับ,80,80,True,True
+procurement,1,markdown,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,1,markdown,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,1,markdown,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,1,markdown,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,1,markdown,PO-3105,จำนวนรับ,26,26,True,True
+procurement,1,markdown,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900.00",True,True
+procurement,1,markdown,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,1,markdown,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,1,markdown,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,1,markdown,PO-3106,จำนวนรับ,108,108,True,True
+procurement,1,markdown,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,2,typhoon,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,2,typhoon,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,2,typhoon,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,2,typhoon,PO-3101,จำนวนรับ,18,18,True,True
+procurement,2,typhoon,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,2,typhoon,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,2,typhoon,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,2,typhoon,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,2,typhoon,PO-3102,จำนวนรับ,56,56,True,True
+procurement,2,typhoon,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,2,typhoon,PO-3103,เลขที่ PO,PO-3103,PO-3103,True,True
+procurement,2,typhoon,PO-3103,เลขใบรับ,ไม่พบ,ไม่พบ,True,True
+procurement,2,typhoon,PO-3103,จำนวนสั่ง,12,12,True,True
+procurement,2,typhoon,PO-3103,จำนวนรับ,0,0,True,True
+procurement,2,typhoon,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00","39,800.00",True,True
+procurement,2,typhoon,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,2,typhoon,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,2,typhoon,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,2,typhoon,PO-3104,จำนวนรับ,80,80,True,True
+procurement,2,typhoon,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,2,typhoon,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,2,typhoon,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,2,typhoon,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,2,typhoon,PO-3105,จำนวนรับ,26,26,True,True
+procurement,2,typhoon,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900.00",True,True
+procurement,2,typhoon,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,2,typhoon,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,2,typhoon,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,2,typhoon,PO-3106,จำนวนรับ,108,108,True,True
+procurement,2,typhoon,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,2,openthai,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,2,openthai,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,2,openthai,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,2,openthai,PO-3101,จำนวนรับ,18,18,True,True
+procurement,2,openthai,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,2,openthai,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,2,openthai,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,2,openthai,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,2,openthai,PO-3102,จำนวนรับ,56,56,True,True
+procurement,2,openthai,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,2,openthai,PO-3103,เลขที่ PO,PO-3103,,True,False
+procurement,2,openthai,PO-3103,เลขใบรับ,ไม่พบ,,True,False
+procurement,2,openthai,PO-3103,จำนวนสั่ง,12,,True,False
+procurement,2,openthai,PO-3103,จำนวนรับ,0,,False,False
+procurement,2,openthai,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00",,True,False
+procurement,2,openthai,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,2,openthai,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,2,openthai,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,2,openthai,PO-3104,จำนวนรับ,80,80,True,True
+procurement,2,openthai,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,2,openthai,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,2,openthai,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,2,openthai,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,2,openthai,PO-3105,จำนวนรับ,26,26,True,True
+procurement,2,openthai,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900.00",True,True
+procurement,2,openthai,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,2,openthai,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,2,openthai,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,2,openthai,PO-3106,จำนวนรับ,108,108,True,True
+procurement,2,openthai,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,2,markdown,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,2,markdown,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,2,markdown,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,2,markdown,PO-3101,จำนวนรับ,18,18,True,True
+procurement,2,markdown,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,2,markdown,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,2,markdown,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,2,markdown,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,2,markdown,PO-3102,จำนวนรับ,56,56,True,True
+procurement,2,markdown,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,2,markdown,PO-3103,เลขที่ PO,PO-3103,PO-3103,True,True
+procurement,2,markdown,PO-3103,เลขใบรับ,ไม่พบ,ไม่พบ,True,True
+procurement,2,markdown,PO-3103,จำนวนสั่ง,12,12,True,True
+procurement,2,markdown,PO-3103,จำนวนรับ,0,0,True,True
+procurement,2,markdown,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00","39,800.00",True,True
+procurement,2,markdown,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,2,markdown,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,2,markdown,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,2,markdown,PO-3104,จำนวนรับ,80,80,True,True
+procurement,2,markdown,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,2,markdown,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,2,markdown,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,2,markdown,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,2,markdown,PO-3105,จำนวนรับ,26,26,True,True
+procurement,2,markdown,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900.00",True,True
+procurement,2,markdown,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,2,markdown,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,2,markdown,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,2,markdown,PO-3106,จำนวนรับ,108,108,True,True
+procurement,2,markdown,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,3,typhoon,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,3,typhoon,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,3,typhoon,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,3,typhoon,PO-3101,จำนวนรับ,18,18,True,True
+procurement,3,typhoon,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,3,typhoon,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,3,typhoon,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,3,typhoon,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,3,typhoon,PO-3102,จำนวนรับ,56,56,True,True
+procurement,3,typhoon,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,3,typhoon,PO-3103,เลขที่ PO,PO-3103,PO-3103,True,True
+procurement,3,typhoon,PO-3103,เลขใบรับ,ไม่พบ,ไม่พบ,True,True
+procurement,3,typhoon,PO-3103,จำนวนสั่ง,12,12,True,True
+procurement,3,typhoon,PO-3103,จำนวนรับ,0,0,True,True
+procurement,3,typhoon,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00","39,800.00",True,True
+procurement,3,typhoon,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,3,typhoon,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,3,typhoon,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,3,typhoon,PO-3104,จำนวนรับ,80,80,True,True
+procurement,3,typhoon,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,3,typhoon,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,3,typhoon,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,3,typhoon,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,3,typhoon,PO-3105,จำนวนรับ,26,26,True,True
+procurement,3,typhoon,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900.00",True,True
+procurement,3,typhoon,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,3,typhoon,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,3,typhoon,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,3,typhoon,PO-3106,จำนวนรับ,108,108,True,True
+procurement,3,typhoon,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,3,openthai,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,3,openthai,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,3,openthai,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,3,openthai,PO-3101,จำนวนรับ,18,18,True,True
+procurement,3,openthai,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,3,openthai,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,3,openthai,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,3,openthai,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,3,openthai,PO-3102,จำนวนรับ,56,56,True,True
+procurement,3,openthai,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,3,openthai,PO-3103,เลขที่ PO,PO-3103,,True,False
+procurement,3,openthai,PO-3103,เลขใบรับ,ไม่พบ,,True,False
+procurement,3,openthai,PO-3103,จำนวนสั่ง,12,,True,False
+procurement,3,openthai,PO-3103,จำนวนรับ,0,,False,False
+procurement,3,openthai,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00",,True,False
+procurement,3,openthai,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,3,openthai,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,3,openthai,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,3,openthai,PO-3104,จำนวนรับ,80,80,True,True
+procurement,3,openthai,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,3,openthai,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,3,openthai,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,3,openthai,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,3,openthai,PO-3105,จำนวนรับ,26,26,True,True
+procurement,3,openthai,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900,00",False,False
+procurement,3,openthai,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,3,openthai,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,3,openthai,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,3,openthai,PO-3106,จำนวนรับ,108,108,True,True
+procurement,3,openthai,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+procurement,3,markdown,PO-3101,เลขที่ PO,PO-3101,PO-3101,True,True
+procurement,3,markdown,PO-3101,เลขใบรับ,GR-4001,GR-4001,True,True
+procurement,3,markdown,PO-3101,จำนวนสั่ง,18,18,True,True
+procurement,3,markdown,PO-3101,จำนวนรับ,18,18,True,True
+procurement,3,markdown,PO-3101,ยอดใบแจ้งหนี้ (บาท),"47,500.00","47,500.00",True,True
+procurement,3,markdown,PO-3102,เลขที่ PO,PO-3102,PO-3102,True,True
+procurement,3,markdown,PO-3102,เลขใบรับ,GR-4002,GR-4002,True,True
+procurement,3,markdown,PO-3102,จำนวนสั่ง,60,60,True,True
+procurement,3,markdown,PO-3102,จำนวนรับ,56,56,True,True
+procurement,3,markdown,PO-3102,ยอดใบแจ้งหนี้ (บาท),"84,640.00","84,640.00",True,True
+procurement,3,markdown,PO-3103,เลขที่ PO,PO-3103,PO-3103,True,True
+procurement,3,markdown,PO-3103,เลขใบรับ,ไม่พบ,ไม่พบ,True,True
+procurement,3,markdown,PO-3103,จำนวนสั่ง,12,12,True,True
+procurement,3,markdown,PO-3103,จำนวนรับ,0,0,True,True
+procurement,3,markdown,PO-3103,ยอดใบแจ้งหนี้ (บาท),"39,800.00","39,800.00",True,True
+procurement,3,markdown,PO-3104,เลขที่ PO,PO-3104,PO-3104,True,True
+procurement,3,markdown,PO-3104,เลขใบรับ,GR-4004,GR-4004,True,True
+procurement,3,markdown,PO-3104,จำนวนสั่ง,80,80,True,True
+procurement,3,markdown,PO-3104,จำนวนรับ,80,80,True,True
+procurement,3,markdown,PO-3104,ยอดใบแจ้งหนี้ (บาท),"49,950.00","49,950.00",True,True
+procurement,3,markdown,PO-3105,เลขที่ PO,PO-3105,PO-3105,True,True
+procurement,3,markdown,PO-3105,เลขใบรับ,GR-4005,GR-4005,True,True
+procurement,3,markdown,PO-3105,จำนวนสั่ง,26,26,True,True
+procurement,3,markdown,PO-3105,จำนวนรับ,26,26,True,True
+procurement,3,markdown,PO-3105,ยอดใบแจ้งหนี้ (บาท),"49,900.00","49,900.00",True,True
+procurement,3,markdown,PO-3106,เลขที่ PO,PO-3106,PO-3106,True,True
+procurement,3,markdown,PO-3106,เลขใบรับ,GR-4006,GR-4006,True,True
+procurement,3,markdown,PO-3106,จำนวนสั่ง,108,108,True,True
+procurement,3,markdown,PO-3106,จำนวนรับ,108,108,True,True
+procurement,3,markdown,PO-3106,ยอดใบแจ้งหนี้ (บาท),"105,860.25","105,860.25",True,True
+inventory,1,typhoon,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,1,typhoon,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,1,typhoon,SK-0061,ยอดระบบ,161,161,True,True
+inventory,1,typhoon,SK-0061,นับจริง,116,116,True,True
+inventory,1,typhoon,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,1,typhoon,SK-0062,รหัสสินค้า,SK-0062,SK-0062,True,True
+inventory,1,typhoon,SK-0062,ตำแหน่ง,A-09,A-09,True,True
+inventory,1,typhoon,SK-0062,ยอดระบบ,208,208,True,True
+inventory,1,typhoon,SK-0062,นับจริง,208,208,True,True
+inventory,1,typhoon,SK-0062,ส่วนต่าง,0,0,True,True
+inventory,1,typhoon,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,1,typhoon,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,1,typhoon,SK-0063,ยอดระบบ,80,80,True,True
+inventory,1,typhoon,SK-0063,นับจริง,88,88,True,True
+inventory,1,typhoon,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,1,typhoon,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,1,typhoon,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,1,typhoon,SK-0064,ยอดระบบ,690,690,True,True
+inventory,1,typhoon,SK-0064,นับจริง,609,609,True,True
+inventory,1,typhoon,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,1,typhoon,SK-0065,รหัสสินค้า,SK-0065,SK-0065,True,True
+inventory,1,typhoon,SK-0065,ตำแหน่ง,B-08,B-08,True,True
+inventory,1,typhoon,SK-0065,ยอดระบบ,3,3,True,True
+inventory,1,typhoon,SK-0065,นับจริง,3,3,True,True
+inventory,1,typhoon,SK-0065,ส่วนต่าง,0,0,True,True
+inventory,1,typhoon,SK-0066,รหัสสินค้า,SK-0066,SK-0066,True,True
+inventory,1,typhoon,SK-0066,ตำแหน่ง,C-04,C-04,True,True
+inventory,1,typhoon,SK-0066,ยอดระบบ,106,106,True,True
+inventory,1,typhoon,SK-0066,นับจริง,106,106,True,True
+inventory,1,typhoon,SK-0066,ส่วนต่าง,0,0,True,True
+inventory,1,openthai,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,1,openthai,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,1,openthai,SK-0061,ยอดระบบ,161,161,True,True
+inventory,1,openthai,SK-0061,นับจริง,116,116,True,True
+inventory,1,openthai,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,1,openthai,SK-0062,รหัสสินค้า,SK-0062,,True,False
+inventory,1,openthai,SK-0062,ตำแหน่ง,A-09,,True,False
+inventory,1,openthai,SK-0062,ยอดระบบ,208,,True,False
+inventory,1,openthai,SK-0062,นับจริง,208,,True,False
+inventory,1,openthai,SK-0062,ส่วนต่าง,0,,False,False
+inventory,1,openthai,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,1,openthai,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,1,openthai,SK-0063,ยอดระบบ,80,80,True,True
+inventory,1,openthai,SK-0063,นับจริง,88,88,True,True
+inventory,1,openthai,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,1,openthai,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,1,openthai,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,1,openthai,SK-0064,ยอดระบบ,690,690,True,True
+inventory,1,openthai,SK-0064,นับจริง,609,609,True,True
+inventory,1,openthai,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,1,openthai,SK-0065,รหัสสินค้า,SK-0065,,True,False
+inventory,1,openthai,SK-0065,ตำแหน่ง,B-08,,True,False
+inventory,1,openthai,SK-0065,ยอดระบบ,3,,False,False
+inventory,1,openthai,SK-0065,นับจริง,3,,False,False
+inventory,1,openthai,SK-0065,ส่วนต่าง,0,,False,False
+inventory,1,openthai,SK-0066,รหัสสินค้า,SK-0066,,True,False
+inventory,1,openthai,SK-0066,ตำแหน่ง,C-04,,True,False
+inventory,1,openthai,SK-0066,ยอดระบบ,106,,True,False
+inventory,1,openthai,SK-0066,นับจริง,106,,True,False
+inventory,1,openthai,SK-0066,ส่วนต่าง,0,,False,False
+inventory,1,markdown,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,1,markdown,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,1,markdown,SK-0061,ยอดระบบ,161,161,True,True
+inventory,1,markdown,SK-0061,นับจริง,116,116,True,True
+inventory,1,markdown,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,1,markdown,SK-0062,รหัสสินค้า,SK-0062,SK-0062,True,True
+inventory,1,markdown,SK-0062,ตำแหน่ง,A-09,A-09,True,True
+inventory,1,markdown,SK-0062,ยอดระบบ,208,208,True,True
+inventory,1,markdown,SK-0062,นับจริง,208,208,True,True
+inventory,1,markdown,SK-0062,ส่วนต่าง,0,0,True,True
+inventory,1,markdown,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,1,markdown,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,1,markdown,SK-0063,ยอดระบบ,80,80,True,True
+inventory,1,markdown,SK-0063,นับจริง,88,88,True,True
+inventory,1,markdown,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,1,markdown,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,1,markdown,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,1,markdown,SK-0064,ยอดระบบ,690,690,True,True
+inventory,1,markdown,SK-0064,นับจริง,609,609,True,True
+inventory,1,markdown,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,1,markdown,SK-0065,รหัสสินค้า,SK-0065,SK-0065,True,True
+inventory,1,markdown,SK-0065,ตำแหน่ง,B-08,B-08,True,True
+inventory,1,markdown,SK-0065,ยอดระบบ,3,3,True,True
+inventory,1,markdown,SK-0065,นับจริง,3,3,True,True
+inventory,1,markdown,SK-0065,ส่วนต่าง,0,0,True,True
+inventory,1,markdown,SK-0066,รหัสสินค้า,SK-0066,SK-0066,True,True
+inventory,1,markdown,SK-0066,ตำแหน่ง,C-04,C-04,True,True
+inventory,1,markdown,SK-0066,ยอดระบบ,106,106,True,True
+inventory,1,markdown,SK-0066,นับจริง,106,106,True,True
+inventory,1,markdown,SK-0066,ส่วนต่าง,0,0,True,True
+inventory,2,typhoon,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,2,typhoon,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,2,typhoon,SK-0061,ยอดระบบ,161,161,True,True
+inventory,2,typhoon,SK-0061,นับจริง,116,116,True,True
+inventory,2,typhoon,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,2,typhoon,SK-0062,รหัสสินค้า,SK-0062,SK-0062,True,True
+inventory,2,typhoon,SK-0062,ตำแหน่ง,A-09,A-09,True,True
+inventory,2,typhoon,SK-0062,ยอดระบบ,208,208,True,True
+inventory,2,typhoon,SK-0062,นับจริง,208,208,True,True
+inventory,2,typhoon,SK-0062,ส่วนต่าง,0,0,True,True
+inventory,2,typhoon,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,2,typhoon,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,2,typhoon,SK-0063,ยอดระบบ,80,80,True,True
+inventory,2,typhoon,SK-0063,นับจริง,88,88,True,True
+inventory,2,typhoon,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,2,typhoon,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,2,typhoon,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,2,typhoon,SK-0064,ยอดระบบ,690,690,True,True
+inventory,2,typhoon,SK-0064,นับจริง,609,609,True,True
+inventory,2,typhoon,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,2,typhoon,SK-0065,รหัสสินค้า,SK-0065,SK-0065,True,True
+inventory,2,typhoon,SK-0065,ตำแหน่ง,B-08,B-08,True,True
+inventory,2,typhoon,SK-0065,ยอดระบบ,3,3,True,True
+inventory,2,typhoon,SK-0065,นับจริง,3,3,True,True
+inventory,2,typhoon,SK-0065,ส่วนต่าง,0,0,True,True
+inventory,2,typhoon,SK-0066,รหัสสินค้า,SK-0066,SK-0066,True,True
+inventory,2,typhoon,SK-0066,ตำแหน่ง,C-04,C-04,True,True
+inventory,2,typhoon,SK-0066,ยอดระบบ,106,106,True,True
+inventory,2,typhoon,SK-0066,นับจริง,106,106,True,True
+inventory,2,typhoon,SK-0066,ส่วนต่าง,0,0,True,True
+inventory,2,openthai,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,2,openthai,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,2,openthai,SK-0061,ยอดระบบ,161,161,True,True
+inventory,2,openthai,SK-0061,นับจริง,116,116,True,True
+inventory,2,openthai,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,2,openthai,SK-0062,รหัสสินค้า,SK-0062,,True,False
+inventory,2,openthai,SK-0062,ตำแหน่ง,A-09,,True,False
+inventory,2,openthai,SK-0062,ยอดระบบ,208,,True,False
+inventory,2,openthai,SK-0062,นับจริง,208,,True,False
+inventory,2,openthai,SK-0062,ส่วนต่าง,0,,False,False
+inventory,2,openthai,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,2,openthai,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,2,openthai,SK-0063,ยอดระบบ,80,80,True,True
+inventory,2,openthai,SK-0063,นับจริง,88,88,True,True
+inventory,2,openthai,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,2,openthai,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,2,openthai,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,2,openthai,SK-0064,ยอดระบบ,690,690,True,True
+inventory,2,openthai,SK-0064,นับจริง,609,609,True,True
+inventory,2,openthai,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,2,openthai,SK-0065,รหัสสินค้า,SK-0065,,True,False
+inventory,2,openthai,SK-0065,ตำแหน่ง,B-08,,True,False
+inventory,2,openthai,SK-0065,ยอดระบบ,3,,False,False
+inventory,2,openthai,SK-0065,นับจริง,3,,False,False
+inventory,2,openthai,SK-0065,ส่วนต่าง,0,,False,False
+inventory,2,openthai,SK-0066,รหัสสินค้า,SK-0066,,True,False
+inventory,2,openthai,SK-0066,ตำแหน่ง,C-04,,True,False
+inventory,2,openthai,SK-0066,ยอดระบบ,106,,True,False
+inventory,2,openthai,SK-0066,นับจริง,106,,True,False
+inventory,2,openthai,SK-0066,ส่วนต่าง,0,,False,False
+inventory,2,markdown,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,2,markdown,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,2,markdown,SK-0061,ยอดระบบ,161,161,True,True
+inventory,2,markdown,SK-0061,นับจริง,116,116,True,True
+inventory,2,markdown,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,2,markdown,SK-0062,รหัสสินค้า,SK-0062,SK-0062,True,True
+inventory,2,markdown,SK-0062,ตำแหน่ง,A-09,A-09,True,True
+inventory,2,markdown,SK-0062,ยอดระบบ,208,208,True,True
+inventory,2,markdown,SK-0062,นับจริง,208,208,True,True
+inventory,2,markdown,SK-0062,ส่วนต่าง,0,0,True,True
+inventory,2,markdown,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,2,markdown,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,2,markdown,SK-0063,ยอดระบบ,80,80,True,True
+inventory,2,markdown,SK-0063,นับจริง,88,88,True,True
+inventory,2,markdown,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,2,markdown,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,2,markdown,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,2,markdown,SK-0064,ยอดระบบ,690,690,True,True
+inventory,2,markdown,SK-0064,นับจริง,609,609,True,True
+inventory,2,markdown,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,2,markdown,SK-0065,รหัสสินค้า,SK-0065,SK-0065,True,True
+inventory,2,markdown,SK-0065,ตำแหน่ง,B-08,B-08,True,True
+inventory,2,markdown,SK-0065,ยอดระบบ,3,3,True,True
+inventory,2,markdown,SK-0065,นับจริง,3,3,True,True
+inventory,2,markdown,SK-0065,ส่วนต่าง,0,0,True,True
+inventory,2,markdown,SK-0066,รหัสสินค้า,SK-0066,SK-0066,True,True
+inventory,2,markdown,SK-0066,ตำแหน่ง,C-04,C-04,True,True
+inventory,2,markdown,SK-0066,ยอดระบบ,106,106,True,True
+inventory,2,markdown,SK-0066,นับจริง,106,106,True,True
+inventory,2,markdown,SK-0066,ส่วนต่าง,0,0,True,True
+inventory,3,typhoon,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,3,typhoon,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,3,typhoon,SK-0061,ยอดระบบ,161,161,True,True
+inventory,3,typhoon,SK-0061,นับจริง,116,116,True,True
+inventory,3,typhoon,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,3,typhoon,SK-0062,รหัสสินค้า,SK-0062,SK-0062,True,True
+inventory,3,typhoon,SK-0062,ตำแหน่ง,A-09,A-09,True,True
+inventory,3,typhoon,SK-0062,ยอดระบบ,208,208,True,True
+inventory,3,typhoon,SK-0062,นับจริง,208,208,True,True
+inventory,3,typhoon,SK-0062,ส่วนต่าง,0,0,True,True
+inventory,3,typhoon,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,3,typhoon,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,3,typhoon,SK-0063,ยอดระบบ,80,80,True,True
+inventory,3,typhoon,SK-0063,นับจริง,88,88,True,True
+inventory,3,typhoon,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,3,typhoon,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,3,typhoon,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,3,typhoon,SK-0064,ยอดระบบ,690,690,True,True
+inventory,3,typhoon,SK-0064,นับจริง,609,609,True,True
+inventory,3,typhoon,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,3,typhoon,SK-0065,รหัสสินค้า,SK-0065,SK-0065,True,True
+inventory,3,typhoon,SK-0065,ตำแหน่ง,B-08,B-08,True,True
+inventory,3,typhoon,SK-0065,ยอดระบบ,3,3,True,True
+inventory,3,typhoon,SK-0065,นับจริง,3,3,True,True
+inventory,3,typhoon,SK-0065,ส่วนต่าง,0,0,True,True
+inventory,3,typhoon,SK-0066,รหัสสินค้า,SK-0066,SK-0066,True,True
+inventory,3,typhoon,SK-0066,ตำแหน่ง,C-04,C-04,True,True
+inventory,3,typhoon,SK-0066,ยอดระบบ,106,106,True,True
+inventory,3,typhoon,SK-0066,นับจริง,106,106,True,True
+inventory,3,typhoon,SK-0066,ส่วนต่าง,0,0,True,True
+inventory,3,openthai,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,3,openthai,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,3,openthai,SK-0061,ยอดระบบ,161,161,True,True
+inventory,3,openthai,SK-0061,นับจริง,116,116,True,True
+inventory,3,openthai,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,3,openthai,SK-0062,รหัสสินค้า,SK-0062,,False,False
+inventory,3,openthai,SK-0062,ตำแหน่ง,A-09,,True,False
+inventory,3,openthai,SK-0062,ยอดระบบ,208,,True,False
+inventory,3,openthai,SK-0062,นับจริง,208,,True,False
+inventory,3,openthai,SK-0062,ส่วนต่าง,0,,False,False
+inventory,3,openthai,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,3,openthai,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,3,openthai,SK-0063,ยอดระบบ,80,80,True,True
+inventory,3,openthai,SK-0063,นับจริง,88,88,True,True
+inventory,3,openthai,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,3,openthai,SK-0064,รหัสสินค้า,SK-0064,,False,False
+inventory,3,openthai,SK-0064,ตำแหน่ง,B-07,,True,False
+inventory,3,openthai,SK-0064,ยอดระบบ,690,,True,False
+inventory,3,openthai,SK-0064,นับจริง,609,,True,False
+inventory,3,openthai,SK-0064,ส่วนต่าง,-81,,True,False
+inventory,3,openthai,SK-0065,รหัสสินค้า,SK-0065,,True,False
+inventory,3,openthai,SK-0065,ตำแหน่ง,B-08,,True,False
+inventory,3,openthai,SK-0065,ยอดระบบ,3,,False,False
+inventory,3,openthai,SK-0065,นับจริง,3,,False,False
+inventory,3,openthai,SK-0065,ส่วนต่าง,0,,False,False
+inventory,3,openthai,SK-0066,รหัสสินค้า,SK-0066,,True,False
+inventory,3,openthai,SK-0066,ตำแหน่ง,C-04,,True,False
+inventory,3,openthai,SK-0066,ยอดระบบ,106,,True,False
+inventory,3,openthai,SK-0066,นับจริง,106,,True,False
+inventory,3,openthai,SK-0066,ส่วนต่าง,0,,False,False
+inventory,3,markdown,SK-0061,รหัสสินค้า,SK-0061,SK-0061,True,True
+inventory,3,markdown,SK-0061,ตำแหน่ง,A-08,A-08,True,True
+inventory,3,markdown,SK-0061,ยอดระบบ,161,161,True,True
+inventory,3,markdown,SK-0061,นับจริง,116,116,True,True
+inventory,3,markdown,SK-0061,ส่วนต่าง,-45,-45,True,True
+inventory,3,markdown,SK-0062,รหัสสินค้า,SK-0062,SK-0062,True,True
+inventory,3,markdown,SK-0062,ตำแหน่ง,A-09,A-09,True,True
+inventory,3,markdown,SK-0062,ยอดระบบ,208,208,True,True
+inventory,3,markdown,SK-0062,นับจริง,208,208,True,True
+inventory,3,markdown,SK-0062,ส่วนต่าง,0,0,True,True
+inventory,3,markdown,SK-0063,รหัสสินค้า,SK-0063,SK-0063,True,True
+inventory,3,markdown,SK-0063,ตำแหน่ง,B-01,B-01,True,True
+inventory,3,markdown,SK-0063,ยอดระบบ,80,80,True,True
+inventory,3,markdown,SK-0063,นับจริง,88,88,True,True
+inventory,3,markdown,SK-0063,ส่วนต่าง,+8,+8,True,True
+inventory,3,markdown,SK-0064,รหัสสินค้า,SK-0064,SK-0064,True,True
+inventory,3,markdown,SK-0064,ตำแหน่ง,B-07,B-07,True,True
+inventory,3,markdown,SK-0064,ยอดระบบ,690,690,True,True
+inventory,3,markdown,SK-0064,นับจริง,609,609,True,True
+inventory,3,markdown,SK-0064,ส่วนต่าง,-81,-81,True,True
+inventory,3,markdown,SK-0065,รหัสสินค้า,SK-0065,SK-0065,True,True
+inventory,3,markdown,SK-0065,ตำแหน่ง,B-08,B-08,True,True
+inventory,3,markdown,SK-0065,ยอดระบบ,3,3,True,True
+inventory,3,markdown,SK-0065,นับจริง,3,3,True,True
+inventory,3,markdown,SK-0065,ส่วนต่าง,0,0,True,True
+inventory,3,markdown,SK-0066,รหัสสินค้า,SK-0066,SK-0066,True,True
+inventory,3,markdown,SK-0066,ตำแหน่ง,C-04,C-04,True,True
+inventory,3,markdown,SK-0066,ยอดระบบ,106,106,True,True
+inventory,3,markdown,SK-0066,นับจริง,106,106,True,True
+inventory,3,markdown,SK-0066,ส่วนต่าง,0,0,True,True
+followup,1,typhoon,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,1,typhoon,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,1,typhoon,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,1,typhoon,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,1,typhoon,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,typhoon,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,1,typhoon,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,1,typhoon,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,1,typhoon,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,typhoon,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,1,typhoon,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,1,typhoon,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลังสินค้า,True,True
+followup,1,typhoon,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,1,typhoon,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,1,typhoon,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,typhoon,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,1,typhoon,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,1,typhoon,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,1,typhoon,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,typhoon,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,1,typhoon,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,1,typhoon,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,1,typhoon,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,1,typhoon,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,1,typhoon,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,typhoon,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,1,typhoon,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,1,typhoon,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,1,typhoon,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,typhoon,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,1,openthai,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,1,openthai,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,1,openthai,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,1,openthai,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,1,openthai,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,openthai,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,1,openthai,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,1,openthai,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,1,openthai,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,openthai,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,1,openthai,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,1,openthai,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลังสินค้า,True,True
+followup,1,openthai,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,1,openthai,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,1,openthai,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,openthai,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,1,openthai,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,1,openthai,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,1,openthai,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,openthai,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,1,openthai,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,1,openthai,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,1,openthai,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,1,openthai,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,1,openthai,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,openthai,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,1,openthai,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,1,openthai,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,1,openthai,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,openthai,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,1,markdown,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,1,markdown,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,1,markdown,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,1,markdown,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,1,markdown,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,markdown,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,1,markdown,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,1,markdown,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,1,markdown,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,markdown,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,1,markdown,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,1,markdown,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลังสินค้า,True,True
+followup,1,markdown,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,1,markdown,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,1,markdown,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,markdown,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,1,markdown,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,1,markdown,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,1,markdown,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,markdown,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทํา,True,True
+followup,1,markdown,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,1,markdown,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,1,markdown,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,1,markdown,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,1,markdown,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,1,markdown,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,1,markdown,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,1,markdown,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,1,markdown,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,1,markdown,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทํา,True,True
+followup,2,typhoon,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,2,typhoon,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,2,typhoon,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,2,typhoon,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,2,typhoon,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,typhoon,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,2,typhoon,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,2,typhoon,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,2,typhoon,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,typhoon,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,2,typhoon,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,2,typhoon,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลังสินค้า,True,True
+followup,2,typhoon,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,2,typhoon,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,2,typhoon,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,typhoon,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,2,typhoon,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,2,typhoon,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,2,typhoon,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,typhoon,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,2,typhoon,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,2,typhoon,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,2,typhoon,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,2,typhoon,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,2,typhoon,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,typhoon,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,2,typhoon,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,2,typhoon,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,2,typhoon,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,typhoon,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,2,openthai,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,2,openthai,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,2,openthai,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,2,openthai,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,2,openthai,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,openthai,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,2,openthai,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,2,openthai,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,2,openthai,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,openthai,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,2,openthai,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,2,openthai,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลังสินค้า,True,True
+followup,2,openthai,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,2,openthai,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,2,openthai,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,openthai,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,2,openthai,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,2,openthai,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,2,openthai,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,openthai,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,2,openthai,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,2,openthai,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,2,openthai,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,2,openthai,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,2,openthai,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,openthai,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,2,openthai,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,2,openthai,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,2,openthai,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,openthai,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,2,markdown,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,2,markdown,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,2,markdown,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,2,markdown,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,2,markdown,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,markdown,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,2,markdown,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,2,markdown,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,2,markdown,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,markdown,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,2,markdown,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,2,markdown,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลังสินค้า,True,True
+followup,2,markdown,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,2,markdown,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,2,markdown,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,markdown,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,2,markdown,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,2,markdown,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,2,markdown,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,markdown,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทํา,True,True
+followup,2,markdown,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,2,markdown,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,2,markdown,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,2,markdown,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,2,markdown,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,2,markdown,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,2,markdown,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,2,markdown,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,2,markdown,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,2,markdown,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทํา,True,True
+followup,3,typhoon,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,3,typhoon,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,3,typhoon,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,3,typhoon,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,3,typhoon,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,typhoon,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,3,typhoon,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,3,typhoon,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,3,typhoon,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,typhoon,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,3,typhoon,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,3,typhoon,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลังสินค้า,True,True
+followup,3,typhoon,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,3,typhoon,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,3,typhoon,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,typhoon,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,3,typhoon,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,3,typhoon,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,3,typhoon,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,typhoon,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,3,typhoon,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,3,typhoon,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,3,typhoon,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,3,typhoon,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,3,typhoon,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,typhoon,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,3,typhoon,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,3,typhoon,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,3,typhoon,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,typhoon,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,3,openthai,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,3,openthai,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,3,openthai,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,3,openthai,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,3,openthai,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,openthai,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,3,openthai,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,3,openthai,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,3,openthai,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,openthai,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,3,openthai,IA-2610,รหัสประเด็น,IA-2610,,False,False
+followup,3,openthai,IA-2610,เจ้าของเรื่อง,คลังสินค้า,,True,False
+followup,3,openthai,IA-2610,กำหนดเสร็จ,15/09/2569,,True,False
+followup,3,openthai,IA-2610,วันที่ปิด,14/09/2569,,True,False
+followup,3,openthai,IA-2610,สถานะ,ปิดแล้ว,,True,False
+followup,3,openthai,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,3,openthai,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,3,openthai,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,3,openthai,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,openthai,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,3,openthai,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,3,openthai,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,3,openthai,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,3,openthai,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,3,openthai,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,openthai,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,3,openthai,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,3,openthai,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,3,openthai,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,openthai,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทำ,True,True
+followup,3,markdown,IA-2608,รหัสประเด็น,IA-2608,IA-2608,True,True
+followup,3,markdown,IA-2608,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,3,markdown,IA-2608,กำหนดเสร็จ,31/08/2569,31/08/2569,True,True
+followup,3,markdown,IA-2608,วันที่ปิด,12/09/2569,12/09/2569,True,True
+followup,3,markdown,IA-2608,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,markdown,IA-2609,รหัสประเด็น,IA-2609,IA-2609,True,True
+followup,3,markdown,IA-2609,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,3,markdown,IA-2609,กำหนดเสร็จ,30/09/2569,30/09/2569,True,True
+followup,3,markdown,IA-2609,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,markdown,IA-2609,สถานะ,รอหลักฐาน,รอหลักฐาน,True,True
+followup,3,markdown,IA-2610,รหัสประเด็น,IA-2610,IA-2610,True,True
+followup,3,markdown,IA-2610,เจ้าของเรื่อง,คลังสินค้า,คลั่งสินค้า,False,False
+followup,3,markdown,IA-2610,กำหนดเสร็จ,15/09/2569,15/09/2569,True,True
+followup,3,markdown,IA-2610,วันที่ปิด,14/09/2569,14/09/2569,True,True
+followup,3,markdown,IA-2610,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,markdown,IA-2611,รหัสประเด็น,IA-2611,IA-2611,True,True
+followup,3,markdown,IA-2611,เจ้าของเรื่อง,การเงิน,การเงิน,True,True
+followup,3,markdown,IA-2611,กำหนดเสร็จ,31/10/2569,31/10/2569,True,True
+followup,3,markdown,IA-2611,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,markdown,IA-2611,สถานะ,ระหว่างทำ,ระหว่างทํา,True,True
+followup,3,markdown,IA-2612,รหัสประเด็น,IA-2612,IA-2612,True,True
+followup,3,markdown,IA-2612,เจ้าของเรื่อง,บัญชี,บัญชี,True,True
+followup,3,markdown,IA-2612,กำหนดเสร็จ,15/10/2569,15/10/2569,True,True
+followup,3,markdown,IA-2612,วันที่ปิด,12/10/2569,12/10/2569,True,True
+followup,3,markdown,IA-2612,สถานะ,ปิดแล้ว,ปิดแล้ว,True,True
+followup,3,markdown,IA-2613,รหัสประเด็น,IA-2613,IA-2613,True,True
+followup,3,markdown,IA-2613,เจ้าของเรื่อง,จัดซื้อ,จัดซื้อ,True,True
+followup,3,markdown,IA-2613,กำหนดเสร็จ,30/11/2569,30/11/2569,True,True
+followup,3,markdown,IA-2613,วันที่ปิด,ยังไม่ปิด,ยังไม่ปิด,True,True
+followup,3,markdown,IA-2613,สถานะ,ระหว่างทำ,ระหว่างทํา,True,True

@@ -1,0 +1,136 @@
+﻿document,variant,model,rule,row_ids,expected,observed,input_values
+payment,1,typhoon,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,1,typhoon,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,1,typhoon,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,1,openthai,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,1,openthai,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,1,openthai,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,1,markdown,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,1,markdown,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,1,markdown,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,2,typhoon,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,2,typhoon,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,2,typhoon,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,2,openthai,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,2,openthai,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,2,openthai,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,2,markdown,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,2,markdown,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,2,markdown,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,3,typhoon,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,3,typhoon,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,3,typhoon,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,3,openthai,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,3,openthai,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,3,openthai,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+payment,3,markdown,จ่ายซ้ำตามเลขใบแจ้งหนี้และยอด,PV-1041 / PV-1042,exception,exception,"INV-0718 | 18,950.00 / INV-0718 | 18,950.00"
+payment,3,markdown,จ่ายก่อนอนุมัติ,PV-1043,exception,exception,06/09/2569 | ไม่อนุมัติ
+payment,3,markdown,รายการอนุมัติแล้ว,PV-1045,normal,normal,10/09/2569 | อนุมัติ
+reconciliation,1,typhoon,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,1,typhoon,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,1,typhoon,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,1,openthai,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,1,openthai,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,1,openthai,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,1,markdown,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,1,markdown,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,1,markdown,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,2,typhoon,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,2,typhoon,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,2,typhoon,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,2,openthai,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,2,openthai,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,2,openthai,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,2,markdown,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,2,markdown,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,2,markdown,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,3,typhoon,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,3,typhoon,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,3,typhoon,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,3,openthai,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,3,openthai,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,3,openthai,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+reconciliation,3,markdown,ผลต่างค่าธรรมเนียม,BR-054,exception,exception,"2,190.00 | 2,910.00 | 720.00"
+reconciliation,3,markdown,ผลต่างติดลบ,BR-056,exception,exception,-100.00
+reconciliation,3,markdown,ยอดยกมาตรงกัน,BR-051,normal,normal,"1,205,680.00 | 1,205,680.00 | 0.00"
+procurement,1,typhoon,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,1,typhoon,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,exception,"ไม่พบ | 39,800.00"
+procurement,1,typhoon,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,1,openthai,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,1,openthai,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,unresolved,
+procurement,1,openthai,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,1,markdown,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,1,markdown,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,exception,"ไม่พบ | 39,800.00"
+procurement,1,markdown,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,2,typhoon,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,2,typhoon,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,exception,"ไม่พบ | 39,800.00"
+procurement,2,typhoon,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,2,openthai,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,2,openthai,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,unresolved,
+procurement,2,openthai,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,2,markdown,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,2,markdown,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,exception,"ไม่พบ | 39,800.00"
+procurement,2,markdown,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,3,typhoon,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,3,typhoon,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,exception,"ไม่พบ | 39,800.00"
+procurement,3,typhoon,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,3,openthai,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,3,openthai,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,unresolved,
+procurement,3,openthai,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+procurement,3,markdown,รับสินค้าไม่ครบ,PO-3102,exception,exception,60 | 56
+procurement,3,markdown,ไม่มีใบรับแต่มีใบแจ้งหนี้,PO-3103,exception,exception,"ไม่พบ | 39,800.00"
+procurement,3,markdown,จำนวนสั่งและรับตรงกัน,PO-3106,normal,normal,108 | 108
+inventory,1,typhoon,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,1,typhoon,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,1,typhoon,ยอดนับตรงกับระบบ,SK-0066,normal,normal,106 | 106 | 0
+inventory,1,openthai,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,1,openthai,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,1,openthai,ยอดนับตรงกับระบบ,SK-0066,normal,unresolved,
+inventory,1,markdown,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,1,markdown,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,1,markdown,ยอดนับตรงกับระบบ,SK-0066,normal,normal,106 | 106 | 0
+inventory,2,typhoon,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,2,typhoon,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,2,typhoon,ยอดนับตรงกับระบบ,SK-0066,normal,normal,106 | 106 | 0
+inventory,2,openthai,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,2,openthai,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,2,openthai,ยอดนับตรงกับระบบ,SK-0066,normal,unresolved,
+inventory,2,markdown,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,2,markdown,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,2,markdown,ยอดนับตรงกับระบบ,SK-0066,normal,normal,106 | 106 | 0
+inventory,3,typhoon,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,3,typhoon,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,3,typhoon,ยอดนับตรงกับระบบ,SK-0066,normal,normal,106 | 106 | 0
+inventory,3,openthai,สินค้าขาดจากยอดระบบ,SK-0064,exception,unresolved,
+inventory,3,openthai,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,3,openthai,ยอดนับตรงกับระบบ,SK-0066,normal,unresolved,
+inventory,3,markdown,สินค้าขาดจากยอดระบบ,SK-0064,exception,exception,690 | 609 | -81
+inventory,3,markdown,สินค้าเกินจากยอดระบบ,SK-0063,exception,exception,80 | 88 | +8
+inventory,3,markdown,ยอดนับตรงกับระบบ,SK-0066,normal,normal,106 | 106 | 0
+followup,1,typhoon,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,1,typhoon,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,1,typhoon,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
+followup,1,openthai,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,1,openthai,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,1,openthai,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
+followup,1,markdown,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,1,markdown,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,1,markdown,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
+followup,2,typhoon,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,2,typhoon,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,2,typhoon,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
+followup,2,openthai,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,2,openthai,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,2,openthai,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
+followup,2,markdown,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,2,markdown,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,2,markdown,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
+followup,3,typhoon,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,3,typhoon,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,3,typhoon,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
+followup,3,openthai,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,3,openthai,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,3,openthai,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,unresolved,
+followup,3,markdown,ปิดประเด็นหลังวันครบกำหนด,IA-2608,exception,exception,31/08/2569 | 12/09/2569 | ปิดแล้ว
+followup,3,markdown,ครบกำหนดแต่ยังไม่มีหลักฐานปิด,IA-2609,exception,exception,30/09/2569 | ยังไม่ปิด | รอหลักฐาน
+followup,3,markdown,ปิดประเด็นก่อนวันครบกำหนด,IA-2610,normal,normal,15/09/2569 | 14/09/2569 | ปิดแล้ว
