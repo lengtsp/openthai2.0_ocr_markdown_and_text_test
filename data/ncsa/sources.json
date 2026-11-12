@@ -1,0 +1,92 @@
+{
+  "documents": [
+    {
+      "file": "ncsa-generative-ai-aup.pdf",
+      "source": "https://www.ncsa.or.th/media/uploads/2025/03/14/generative-ai_template_uid_67d39d7ba8b92.pdf",
+      "pdf_pages": 9,
+      "pages": 9,
+      "selected_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "starter_pages_1_based": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "sha256": "b2d17d2f20dde1f5ee6568733a38820dfad7aa7c4a78437302fed9692b8121b8"
+    },
+    {
+      "file": "ncsa-ai-security-guidelines.pdf",
+      "source": "https://drive.ncsa.or.th/s/Le37SrkAWo97q6g",
+      "pdf_pages": 141,
+      "pages": 10,
+      "selected_pdf_pages": [
+        1,
+        2,
+        4,
+        12,
+        18,
+        28,
+        40,
+        68,
+        95,
+        130
+      ],
+      "starter_pages_1_based": [
+        1,
+        2,
+        4,
+        12,
+        18,
+        28,
+        40,
+        68,
+        95,
+        130
+      ],
+      "sha256": "50e839420b624526db8ce0ad43f604587fc76abd0c90c1546cb71a5bfbedeb1c"
+    },
+    {
+      "file": "ncsa-annual-2567.pdf",
+      "source": "https://www.ncsa.or.th/media/uploads/2025/03/14/ncsa-annual-2024_e-book_uid_67d3ad045e4fa.pdf",
+      "pdf_pages": 152,
+      "pages": 8,
+      "selected_pdf_pages": [
+        1,
+        5,
+        8,
+        20,
+        34,
+        52,
+        70,
+        90
+      ],
+      "starter_pages_1_based": [
+        1,
+        5,
+        8,
+        20,
+        34,
+        52,
+        70,
+        90
+      ],
+      "sha256": "ae17aa94149780ce280ce2b13240d422f3c78fa416d828f2046fa6fa452e0eec"
+    }
+  ],
+  "dpi": 200
+}

@@ -1,0 +1,133 @@
+{
+  "ocr_inputs": "Identical rendered PDF pages at 200 DPI, verified by SHA-256",
+  "reference": "GPT-6.1 Sol transcription from the page images",
+  "cer": "Normalized character edit rate, unknown reference spans masked, blank pages measured separately",
+  "numeric_token_f1": "Exact numeric token multiset F1 per page after Thai digit and grouping normalization; no row or cell positions",
+  "timing": "Request wall times from separate runs; OpenThai Text single CPU thread, Typhoon GPU up to four outstanding, OpenThai Markdown GPU up to four outstanding",
+  "all": {
+    "pages": 27,
+    "pages_with_cer": 27,
+    "blank_pages": 0,
+    "pages_with_unreadable_spans": 4,
+    "reference_chars": 44503,
+    "text": {
+      "cer": 0.1197896771004202,
+      "numeric_token_f1": 0.926056338028169,
+      "pages_with_html_tables": 0,
+      "failures": 0,
+      "blank_false_positives": 0,
+      "median_request_seconds": 0.278512
+    },
+    "typhoon": {
+      "cer": 0.045210435251556075,
+      "numeric_token_f1": 0.96415770609319,
+      "pages_with_html_tables": 3,
+      "failures": 0,
+      "blank_false_positives": 0,
+      "median_request_seconds": 3.67762
+    },
+    "markdown": {
+      "cer": 0.03260454351392041,
+      "numeric_token_f1": 0.931323283082077,
+      "pages_with_html_tables": 4,
+      "failures": 0,
+      "blank_false_positives": 0,
+      "median_request_seconds": 10.524554
+    }
+  },
+  "by_document": {
+    "ncsa-generative-ai-aup": {
+      "pages": 9,
+      "pages_with_cer": 9,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 0,
+      "reference_chars": 17246,
+      "text": {
+        "cer": 0.09521048359039777,
+        "numeric_token_f1": 0.9064748201438849,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.275967
+      },
+      "typhoon": {
+        "cer": 0.07636553403687811,
+        "numeric_token_f1": 0.9857142857142858,
+        "pages_with_html_tables": 1,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 3.998562
+      },
+      "markdown": {
+        "cer": 0.04244462484054273,
+        "numeric_token_f1": 1.0,
+        "pages_with_html_tables": 1,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 11.531009
+      }
+    },
+    "ncsa-ai-security-guidelines": {
+      "pages": 10,
+      "pages_with_cer": 10,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 0,
+      "reference_chars": 15506,
+      "text": {
+        "cer": 0.08977170127692506,
+        "numeric_token_f1": 0.937799043062201,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.28774299999999997
+      },
+      "typhoon": {
+        "cer": 0.007029536953437379,
+        "numeric_token_f1": 1.0,
+        "pages_with_html_tables": 2,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 3.8600015
+      },
+      "markdown": {
+        "cer": 0.01560686185992519,
+        "numeric_token_f1": 0.9811320754716981,
+        "pages_with_html_tables": 2,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 10.2903045
+      }
+    },
+    "ncsa-annual-2567": {
+      "pages": 8,
+      "pages_with_cer": 8,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 4,
+      "reference_chars": 11751,
+      "text": {
+        "cer": 0.19547272572547017,
+        "numeric_token_f1": 0.9272727272727272,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.321446
+      },
+      "typhoon": {
+        "cer": 0.049868096332227045,
+        "numeric_token_f1": 0.9142857142857143,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 3.200482
+      },
+      "markdown": {
+        "cer": 0.04059229001787082,
+        "numeric_token_f1": 0.8489795918367347,
+        "pages_with_html_tables": 1,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 7.391564000000001
+      }
+    }
+  }
+}
