@@ -1,0 +1,132 @@
+{
+  "document": "bot-financial-statement-2568",
+  "page": 7,
+  "expected_cells": 6,
+  "typhoon": {
+    "html_tables": 1,
+    "correct_cells": 6,
+    "correct_cells_by_visual_position": 6,
+    "checks": [
+      {
+        "row": "เงินสำรองอันเกิดจากการตีราคาสินทรัพย์และหนี้สิน",
+        "year": "2568",
+        "expected": "190,500,594,485",
+        "actual": "190,500,594,485",
+        "predicted_header": "2568",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "เงินสำรองอันเกิดจากการตีราคาสินทรัพย์และหนี้สิน",
+        "year": "2567",
+        "expected": "102,848,857,286",
+        "actual": "102,848,857,286",
+        "predicted_header": "2567",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "ขาดทุนสะสม",
+        "year": "2568",
+        "expected": "(597,455,375,972)",
+        "actual": "(597,455,375,972)",
+        "predicted_header": "2568",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "ขาดทุนสะสม",
+        "year": "2567",
+        "expected": "(576,126,816,476)",
+        "actual": "(576,126,816,476)",
+        "predicted_header": "2567",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "รวมหนี้สินและส่วนของทุน",
+        "year": "2568",
+        "expected": "6,112,765,627,219",
+        "actual": "6,112,765,627,219",
+        "predicted_header": "2568",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "รวมหนี้สินและส่วนของทุน",
+        "year": "2567",
+        "expected": "5,713,199,464,334",
+        "actual": "5,713,199,464,334",
+        "predicted_header": "2567",
+        "position_correct": true,
+        "correct": true
+      }
+    ]
+  },
+  "text": {
+    "html_tables": 0,
+    "correct_cells": null,
+    "reason": "No structured table output"
+  },
+  "markdown": {
+    "html_tables": 1,
+    "correct_cells": 3,
+    "correct_cells_by_visual_position": 6,
+    "checks": [
+      {
+        "row": "เงินสำรองอันเกิดจากการตีราคาสินทรัพย์และหนี้สิน",
+        "year": "2568",
+        "expected": "190,500,594,485",
+        "actual": "190,500,594,485",
+        "predicted_header": "2568",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "เงินสำรองอันเกิดจากการตีราคาสินทรัพย์และหนี้สิน",
+        "year": "2567",
+        "expected": "102,848,857,286",
+        "actual": "102,848,857,286",
+        "predicted_header": "หน่วย:บาท",
+        "position_correct": true,
+        "correct": false
+      },
+      {
+        "row": "ขาดทุนสะสม",
+        "year": "2568",
+        "expected": "(597,455,375,972)",
+        "actual": "(597,455,375,972)",
+        "predicted_header": "2568",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "ขาดทุนสะสม",
+        "year": "2567",
+        "expected": "(576,126,816,476)",
+        "actual": "(576,126,816,476)",
+        "predicted_header": "หน่วย:บาท",
+        "position_correct": true,
+        "correct": false
+      },
+      {
+        "row": "รวมหนี้สินและส่วนของทุน",
+        "year": "2568",
+        "expected": "6,112,765,627,219",
+        "actual": "6,112,765,627,219",
+        "predicted_header": "2568",
+        "position_correct": true,
+        "correct": true
+      },
+      {
+        "row": "รวมหนี้สินและส่วนของทุน",
+        "year": "2567",
+        "expected": "5,713,199,464,334",
+        "actual": "5,713,199,464,334",
+        "predicted_header": "หน่วย:บาท",
+        "position_correct": true,
+        "correct": false
+      }
+    ]
+  }
+}

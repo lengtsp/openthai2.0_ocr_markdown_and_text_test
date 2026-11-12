@@ -1,0 +1,124 @@
+{
+  "source": "budget-2569",
+  "page": 113,
+  "expected_columns": 7,
+  "expected_checks": 6,
+  "typhoon": {
+    "header_cells": 8,
+    "header": [
+      "กระทรวง",
+      "งบรายจ่าย",
+      "งบดุลการ",
+      "งบดำเนินงาน",
+      "งบลงทุน",
+      "งบเงินอุดหนุน",
+      "งบรายจ่ายอื่น",
+      "รวม"
+    ],
+    "details": [
+      {
+        "row": "งบกลาง",
+        "column": "งบลงทุน",
+        "expected": "61,760.0",
+        "at_visual_position": "61,760.0",
+        "under_predicted_header": "389,468.8"
+      },
+      {
+        "row": "งบกลาง",
+        "column": "รวม",
+        "expected": "632,968.8",
+        "at_visual_position": "632,968.8",
+        "under_predicted_header": ""
+      },
+      {
+        "row": "กระทรวงกลาโหม",
+        "column": "งบลงทุน",
+        "expected": "12,540.1",
+        "at_visual_position": "12,540.1",
+        "under_predicted_header": "4,982.0"
+      },
+      {
+        "row": "กระทรวงกลาโหม",
+        "column": "รวม",
+        "expected": "204,434.7",
+        "at_visual_position": "204,434.7",
+        "under_predicted_header": ""
+      },
+      {
+        "row": "กระทรวงการคลัง",
+        "column": "งบลงทุน",
+        "expected": "3,435.6",
+        "at_visual_position": "3,435.6",
+        "under_predicted_header": "5,128.3"
+      },
+      {
+        "row": "กระทรวงการคลัง",
+        "column": "รวม",
+        "expected": "397,856.7",
+        "at_visual_position": "397,856.7",
+        "under_predicted_header": ""
+      }
+    ],
+    "correct_by_visual_position": 6,
+    "correct_under_predicted_header": 0
+  },
+  "markdown": {
+    "header_cells": 8,
+    "header": [
+      "กระทรวง",
+      "งบรายจ่าย",
+      "งบบุคลากร",
+      "งบดําเนินงาน",
+      "งบลงทุน",
+      "งบเงินอุดหนุน",
+      "งบรายจ่ายอื่น",
+      "รวม"
+    ],
+    "details": [
+      {
+        "row": "งบกลาง",
+        "column": "งบลงทุน",
+        "expected": "61,760.0",
+        "at_visual_position": "61,760.0",
+        "under_predicted_header": "389,468.8"
+      },
+      {
+        "row": "งบกลาง",
+        "column": "รวม",
+        "expected": "632,968.8",
+        "at_visual_position": "632,968.8",
+        "under_predicted_header": null
+      },
+      {
+        "row": "กระทรวงกลาโหม",
+        "column": "งบลงทุน",
+        "expected": "12,540.1",
+        "at_visual_position": "12,540.1",
+        "under_predicted_header": "4,982.0"
+      },
+      {
+        "row": "กระทรวงกลาโหม",
+        "column": "รวม",
+        "expected": "204,434.7",
+        "at_visual_position": "204,434.7",
+        "under_predicted_header": null
+      },
+      {
+        "row": "กระทรวงการคลัง",
+        "column": "งบลงทุน",
+        "expected": "3,435.6",
+        "at_visual_position": "3,435.6",
+        "under_predicted_header": "5,128.3"
+      },
+      {
+        "row": "กระทรวงการคลัง",
+        "column": "รวม",
+        "expected": "397,856.7",
+        "at_visual_position": "397,856.7",
+        "under_predicted_header": null
+      }
+    ],
+    "correct_by_visual_position": 6,
+    "correct_under_predicted_header": 0
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "ocr_inputs": "Identical rendered PDF pages at 200 DPI, verified by SHA-256",
+  "reference": "GPT-6.1 Sol transcription from the page images",
+  "cer": "Normalized character edit rate, unknown reference spans masked, blank pages measured separately",
+  "numeric_token_f1": "Exact numeric token multiset F1 per page after Thai digit and grouping normalization; no row or cell positions",
+  "timing": "Request wall times from separate runs; OpenThai Text single CPU thread, Typhoon historical GPU up to four outstanding, OpenThai Markdown GPU up to four outstanding",
+  "all": {
+    "pages": 293,
+    "pages_with_cer": 286,
+    "blank_pages": 7,
+    "pages_with_unreadable_spans": 13,
+    "reference_chars": 367346,
+    "text": {
+      "cer": 0.07981031507080519,
+      "numeric_token_f1": 0.9635124484213454,
+      "pages_with_html_tables": 0,
+      "failures": 0,
+      "blank_false_positives": 0,
+      "median_request_seconds": 0.266362
+    },
+    "typhoon": {
+      "cer": 0.05066612948010867,
+      "numeric_token_f1": 0.9801631442343345,
+      "pages_with_html_tables": 139,
+      "failures": 1,
+      "blank_false_positives": 0,
+      "median_request_seconds": 4.545565
+    },
+    "markdown": {
+      "cer": 0.05955148552046299,
+      "numeric_token_f1": 0.9655456794648585,
+      "pages_with_html_tables": 142,
+      "failures": 0,
+      "blank_false_positives": 7,
+      "median_request_seconds": 8.738781
+    }
+  },
+  "by_document": {
+    "bot-financial-statement-2568": {
+      "pages": 82,
+      "pages_with_cer": 82,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 8,
+      "reference_chars": 116526,
+      "text": {
+        "cer": 0.02203800010298131,
+        "numeric_token_f1": 0.9661359049114151,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.2924525
+      },
+      "typhoon": {
+        "cer": 0.007157200968024304,
+        "numeric_token_f1": 0.997355663287792,
+        "pages_with_html_tables": 49,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 5.190536
+      },
+      "markdown": {
+        "cer": 0.0136278598767657,
+        "numeric_token_f1": 0.994273127753304,
+        "pages_with_html_tables": 49,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 10.0669545
+      }
+    },
+    "bot-payment-supervisory-data": {
+      "pages": 33,
+      "pages_with_cer": 33,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 2,
+      "reference_chars": 27973,
+      "text": {
+        "cer": 0.5256497336717549,
+        "numeric_token_f1": 0.9123152709359605,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.244808
+      },
+      "typhoon": {
+        "cer": 0.18546455510671003,
+        "numeric_token_f1": 0.9829222011385199,
+        "pages_with_html_tables": 17,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 4.536964
+      },
+      "markdown": {
+        "cer": 0.2188181460694241,
+        "numeric_token_f1": 0.9519321394910462,
+        "pages_with_html_tables": 18,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 5.196752
+      }
+    },
+    "budget-2569": {
+      "pages": 144,
+      "pages_with_cer": 137,
+      "blank_pages": 7,
+      "pages_with_unreadable_spans": 1,
+      "reference_chars": 170526,
+      "text": {
+        "cer": 0.027649742561251658,
+        "numeric_token_f1": 0.9683965174470419,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.24388949999999998
+      },
+      "typhoon": {
+        "cer": 0.050033425987825904,
+        "numeric_token_f1": 0.9799917207120188,
+        "pages_with_html_tables": 71,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 3.5541725
+      },
+      "markdown": {
+        "cer": 0.0538510256500475,
+        "numeric_token_f1": 0.9636905568351172,
+        "pages_with_html_tables": 73,
+        "failures": 0,
+        "blank_false_positives": 7,
+        "median_request_seconds": 8.832242
+      }
+    },
+    "gazette-bot-85788": {
+      "pages": 15,
+      "pages_with_cer": 15,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 0,
+      "reference_chars": 28676,
+      "text": {
+        "cer": 0.014227925791602734,
+        "numeric_token_f1": 0.9768637532133676,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.317065
+      },
+      "typhoon": {
+        "cer": 0.012972520574696611,
+        "numeric_token_f1": 1.0,
+        "pages_with_html_tables": 1,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 4.781738
+      },
+      "markdown": {
+        "cer": 0.025073231970986192,
+        "numeric_token_f1": 0.9949238578680203,
+        "pages_with_html_tables": 1,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 16.559608
+      }
+    },
+    "gazette-siam-2475-scan": {
+      "pages": 14,
+      "pages_with_cer": 14,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 1,
+      "reference_chars": 9720,
+      "text": {
+        "cer": 0.03137860082304527,
+        "numeric_token_f1": 0.8806366047745358,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.2359985
+      },
+      "typhoon": {
+        "cer": 0.013374485596707819,
+        "numeric_token_f1": 0.9230769230769231,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 2.42373
+      },
+      "markdown": {
+        "cer": 0.015020576131687243,
+        "numeric_token_f1": 0.8563685636856369,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 6.177157
+      }
+    },
+    "rd-pit90-91-2568-deductions": {
+      "pages": 5,
+      "pages_with_cer": 5,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 1,
+      "reference_chars": 13925,
+      "text": {
+        "cer": 0.47526032315978456,
+        "numeric_token_f1": 0.9568733153638814,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.425829
+      },
+      "typhoon": {
+        "cer": 0.2553680430879713,
+        "numeric_token_f1": 0.8904109589041096,
+        "pages_with_html_tables": 1,
+        "failures": 1,
+        "blank_false_positives": 0,
+        "median_request_seconds": 15.068536
+      },
+      "markdown": {
+        "cer": 0.2957989228007181,
+        "numeric_token_f1": 0.88,
+        "pages_with_html_tables": 1,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 17.454367
+      }
+    }
+  }
+}

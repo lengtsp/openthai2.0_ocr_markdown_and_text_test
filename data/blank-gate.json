@@ -1,0 +1,15 @@
+{
+  "rule": "All pixels have grayscale value >= 250 in the rendered PNG",
+  "pages": 293,
+  "confirmed_blank_detected": [
+    "budget-2569/page-002",
+    "budget-2569/page-006",
+    "budget-2569/page-008",
+    "budget-2569/page-012",
+    "budget-2569/page-076",
+    "budget-2569/page-126",
+    "budget-2569/page-143"
+  ],
+  "reference_blanks_missed": [],
+  "nonblank_pages_filtered": []
+}
