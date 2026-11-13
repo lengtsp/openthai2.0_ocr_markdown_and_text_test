@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="เปรียบเทียบผล OCR สามโมเดลจากภาพเอกสาร สกมช. พร้อม Prompt และผลจริง">
+<title>เทียบ OCR เอกสาร สกมช. · IT Audit</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="assets/cases.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="mast">
+  <div class="wrap">
+    <p class="eyebrow">IT AUDIT <span></span> OCR BENCHMARK</p>
+    <h1>เทียบ OCR เอกสาร สกมช.</h1>
+    <p>ภาพต้นฉบับ Prompt และผลจริงจาก Typhoon OCR 2 2B, OpenThai Text และ OpenThai Markdown</p>
+  </div>
+</header>
+<main class="wrap">
+  <nav id="cases" aria-label="เลือกตัวอย่างเอกสาร"></nav>
+  <section class="comparison" aria-labelledby="case-title">
+    <div class="source">
+      <div class="section-label"><span>ภาพต้นฉบับ</span><a id="full-image" target="_blank" rel="noopener">เปิดเต็มหน้า ↗</a></div>
+      <img id="source-image" alt="">
+    </div>
+    <div class="findings">
+      <p class="reference" id="reference"></p>
+      <h2 id="case-title"></h2>
+      <p class="description" id="description"></p>
+      <div class="table-scroll"><table id="comparison-table"></table></div>
+    </div>
+  </section>
+  <section aria-labelledby="outputs-title" class="outputs">
+    <div class="section-label"><h2 id="outputs-title">Prompt และผลจากโมเดล</h2><span>กดเปิดเพื่อดูผลเต็มหน้า</span></div>
+    <div id="models" class="models"></div>
+  </section>
+  <details class="qa"><summary>คำถามที่ส่งให้ Qwen หลัง OCR</summary><p>รอบถามตอบใช้หลักฐาน 4 หน้า คำถามเรื่องกราฟครอบคลุม National CERT</p><pre id="questions"></pre></details>
+  <footer><a href="https://github.com/lengtsp/openthai2.0_ocr_markdown_and_text_test">GitHub ↗</a><a id="official" target="_blank" rel="noopener">PDF จาก สกมช. ↗</a></footer>
+</main>
+</body>
+</html>

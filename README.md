@@ -2,6 +2,20 @@
 
 ทดสอบเพิ่มกับ PDF ของ สกมช. 3 ฉบับ รวม 27 หน้า อ่านได้ใน [ผลทดสอบ OCR เอกสาร NCSA](ncsa-ocr-review.md) · [ผลทดสอบ Qwen จัดประเภทหน้าก่อน OCR](qwen-ocr-routing.md) · [ผลรายงานประจำปี สกมช. ครบ 152 หน้า](ncsa-annual-full-review.md) · [ทดลองใช้ Qwen ถอดข้อความอ้างอิง](qwen-ground-truth-review.md) · [ผล OCR สำหรับ Internal Audit](internal-audit-ocr-review.md)
 
+## เว็บเปรียบเทียบ OCR เอกสาร สกมช.
+
+[เปิดเว็บเปรียบเทียบ](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/) · [ซอร์สเว็บและข้อมูลผล OCR](docs/)
+
+สลับดูกราฟวงกลม กราฟ National CERT ตารางรายเดือน และตารางมาตรการสองหน้า เทียบภาพต้นฉบับกับผลจริงจาก Typhoon OCR 2 2B, OpenThai Text และ OpenThai Markdown พร้อมเปิดดู Prompt หรือวิธีเรียกของแต่ละรุ่นได้
+
+**กราฟวงกลม ThaiCERT** · OpenThai Markdown อ่านชื่อหมวดได้ แต่จับคู่เปอร์เซ็นต์ผิด เช่น 32.6% เป็นของ Vulnerability ในภาพ ส่วนผล OCR ผูกกับ Intrusions
+
+[![หน้าเว็บเปรียบเทียบกราฟวงกลมกับผล OCR ของสามโมเดล](docs/assets/preview-pie.jpg)](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#pie)
+
+**กราฟ National CERT** · Markdown เก็บชื่อและค่าครบทั้ง 7 หมวดตามลำดับภาพ ป้ายยอดรวม 135 หลุดจากผล OCR ส่วน Typhoon ใช้ Prompt ที่กำหนดให้ข้อความของบล็อกภาพว่าง
+
+[![หน้าเว็บเปรียบเทียบกราฟ National CERT กับผล OCR ของสามโมเดล](docs/assets/preview-funnel.jpg)](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#funnel)
+
 จาก PDF สาธารณะ 6 ฉบับ 293 หน้า **Typhoon OCR V2 2B มี CER รวมต่ำที่สุด (5.07%)** ส่วน OpenThai Text ใช้เวลาต่อหน้าต่ำที่สุดในชุดทดสอบนี้ ผลต่างกันตามเอกสาร จึงควรดูคะแนนรายฉบับและรูปแบบผลลัพธ์ประกอบ
 
 | ตัวชี้วัด | Typhoon OCR V2 2B | OpenThai Text | OpenThai Markdown |
