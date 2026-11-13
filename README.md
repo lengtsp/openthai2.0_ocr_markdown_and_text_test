@@ -2,6 +2,8 @@
 
 ทดสอบเพิ่มกับ PDF ของ สกมช. 3 ฉบับ รวม 27 หน้า อ่านได้ใน [ผลทดสอบ OCR เอกสาร NCSA](ncsa-ocr-review.md) · [ผลทดสอบ Qwen จัดประเภทหน้าก่อน OCR](qwen-ocr-routing.md) · [ผลรายงานประจำปี สกมช. ครบ 152 หน้า](ncsa-annual-full-review.md) · [ทดลองใช้ Qwen ถอดข้อความอ้างอิง](qwen-ground-truth-review.md) · [ผล OCR สำหรับ Internal Audit](internal-audit-ocr-review.md)
 
+[แนวทางตรวจไฟล์ก่อนเผยแพร่](PUBLISHING.md)
+
 ## เทียบ OCR ตามรูปแบบหน้า
 
 OpenThai OCR Text ทำได้ใกล้ Typhoon OCR 2 2B และ OpenThai OCR Markdown ที่สุดในหน้าเน้นข้อความอ่านต่อเนื่อง แต่ผลต่างกว้างขึ้นเมื่อข้อมูลอยู่ในตารางหรือกระจายหลายกล่องบนสไลด์
