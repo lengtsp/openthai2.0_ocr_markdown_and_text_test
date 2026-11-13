@@ -1,6 +1,6 @@
 # Thai OCR benchmark for IT audit
 
-[ภาษาไทย](README.th.md) · [Open the interactive comparison](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/)
+[ภาษาไทย](README.th.md) · [See the seven tests in order](#seven-tests-in-the-order-i-ran-them) · [Open the interactive comparison](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/)
 
 A single PDF can contain paragraphs, tables, slides, and flowcharts. I gave **OpenThai OCR Text**, **OpenThai OCR Markdown**, and **Typhoon OCR V2 2B** the same page images and checked both how accurately they read the text and whether they kept related information together.
 
@@ -49,6 +49,85 @@ Typhoon appears twice below because I tested the same model with its standard pr
 | ETDA cash withdrawal, p. 26 · eight step labels | 0.63% / 98.78 | 75.95% / 4.25 | 100.00% / 0.00 | 0.00% / 100.00 |
 
 Each cell shows **CER / character-level BLEU** for the selected fields. Lower CER and higher BLEU are better. Missing fields count as empty text. The table above tracks year–value pairs and arrows separately. The stacked chart on page 8 had no printed per-series values to score. [Arrow checks](data/regulator-visual/flow-review.json)
+
+</details>
+
+## Seven tests in the order I ran them
+
+### 1. NCSA preface · single-column text
+
+On the NCSA manual’s preface (“คำนำ”), Typhoon matched the reference exactly (CER 0.00%, BLEU 100.00). OpenThai Markdown made minor errors, such as “Artificial” becoming “Artifificial” (CER 0.13%, BLEU 99.87). OpenThai Text read “AI” as “Al” and misread “คำนำ” (CER 0.52%, BLEU 99.08). Text took 0.37 seconds, compared with 3.03 seconds for Typhoon and 10.28 seconds for Markdown. For making manuals or policies searchable, this is the kind of page OpenThai Text handles well.
+
+<details>
+<summary>Preview the comparison and open the full image</summary>
+
+[![NCSA preface · single-column text](docs/assets/test-sequence/1-preview.jpg)](docs/assets/test-sequence/1.jpg)
+
+</details>
+
+### 2. Bank of Thailand economic table · values in the right rows
+
+OpenThai Markdown had the best full-page text score and placed the numbers correctly in the two rows checked. OpenThai Text read the rows in order but dropped or misread some decimal points. Typhoon produced an HTML table with a custom prompt, but shifted a set of values onto the wrong line items.
+
+<details>
+<summary>Preview the comparison and open the full image</summary>
+
+[![Bank of Thailand economic table · values in the right rows](docs/assets/test-sequence/2-preview.jpg)](docs/assets/test-sequence/2.jpg)
+
+</details>
+
+### 3. NCSA Do’s and Don’ts · two independent lists
+
+OpenThai Markdown returned all nine Do’s and nine Don’ts in order, with each list intact. Typhoon kept items on the correct side in HTML row pairs. To read one list at a time, extract the entire left column first and then the right. OpenThai Text mixed the columns, putting “ความถูกต้อง” from the Don’ts at the end of a line on the Do’s side. Markdown separated the lists most clearly in its direct output.
+
+<details>
+<summary>Preview the comparison and open the full image</summary>
+
+[![NCSA Do’s and Don’ts · two independent lists](docs/assets/test-sequence/3-preview.jpg)](docs/assets/test-sequence/3.jpg)
+
+</details>
+
+### 4. Bank of Thailand slide · reading six numbered boxes
+
+The slide is numbered 1 → 2 → 3 → 4 → 5 → 6. Typhoon and OpenThai Markdown read down the columns in the order 1 → 4 → 2 → 5 → 3 → 6. Typhoon preserved much of the wording (CER 48.01%, BLEU 97.77). Markdown repeated “ความถี่: รายเดือน” (CER 47.28%, BLEU 94.43). Text merged content across boxes and misread more characters (CER 67.13%, BLEU 86.54). BLEU stayed high because many passages still matched despite the changed reading order.
+
+<details>
+<summary>Preview the comparison and open the full image</summary>
+
+[![Bank of Thailand slide · reading six numbered boxes](docs/assets/test-sequence/4-preview.jpg)](docs/assets/test-sequence/4.jpg)
+
+</details>
+
+### 5. Bank of Thailand charts · match years to printed values
+
+OpenThai Markdown and Typhoon with a chart-specific prompt tied at 26/26 year–value pairs. OpenThai Text read many values without clearly linking them to years. Standard Typhoon located the chart but left the chart text empty. On the stacked chart without printed values, Markdown and targeted Typhoon returned different numbers. Cite the source data for those figures.
+
+<details>
+<summary>Preview the comparison and open the full image</summary>
+
+[![Bank of Thailand charts · match years to printed values](docs/assets/test-sequence/5-preview.jpg)](docs/assets/test-sequence/5.jpg)
+
+</details>
+
+### 6. NCSA dashboard · targeted Typhoon kept the right order
+
+When asked for the dashboard numbers, Typhoon returned all six values in the same order as the image. OpenThai Text also read all six but swapped the first two. OpenThai Markdown and standard Typhoon read surrounding text but missed all six dashboard numbers. Targeted Typhoon performed best when the order mattered.
+
+<details>
+<summary>Preview the comparison and open the full image</summary>
+
+[![NCSA dashboard · targeted Typhoon kept the right order](docs/assets/test-sequence/6-preview.jpg)](docs/assets/test-sequence/6.jpg)
+
+</details>
+
+### 7. ETDA flowcharts · read the steps and check the arrows
+
+OpenThai Text read nearly all checked box labels. OpenThai Markdown converted the diagram into a table and dropped several boxes on the withdrawal page. Standard Typhoon detected the diagram as a figure and left its text empty. Targeted Typhoon read all checked labels and followed 6 of 12 arrows correctly. It still sent the complete-information branch to “ปฏิเสธรายการ” (reject the transaction) instead of “ลงลายมือชื่อ” (sign). Before using a flowchart as audit evidence, I would check every arrow and condition against the original.
+
+<details>
+<summary>Preview the comparison and open the full image</summary>
+
+[![ETDA flowcharts · read the steps and check the arrows](docs/assets/test-sequence/7-preview.jpg)](docs/assets/test-sequence/7.jpg)
 
 </details>
 

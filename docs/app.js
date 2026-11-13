@@ -83,5 +83,25 @@ for (const item of cases) {
   byId("cases").append(button);
 }
 byId("questions").textContent = comparisonData.questions;
+const testList = byId("test-sequence");
+testSequence.forEach(([title, description, thaiTitle, thaiDescription], index) => {
+  const item = element("li");
+  const heading = isThai ? thaiTitle : title;
+  const asset = "assets/test-sequence/" + (index + 1);
+  const preview = element("img");
+  preview.src = asset + "-preview.jpg";
+  preview.alt = heading;
+  preview.loading = "lazy";
+  const fullImage = element("a");
+  fullImage.href = asset + ".jpg";
+  fullImage.append(preview);
+  const details = element("details");
+  details.append(
+    element("summary", isThai ? "ดูภาพเปรียบเทียบและเปิดภาพเต็ม" : "Preview the comparison and open the full image"),
+    fullImage
+  );
+  item.append(element("h3", heading), element("p", isThai ? thaiDescription : description), details);
+  testList.append(item);
+});
 window.addEventListener("hashchange", activeCase);
 activeCase();

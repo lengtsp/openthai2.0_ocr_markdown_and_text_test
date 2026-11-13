@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="style.css">
 <script defer src="assets/cases.js"></script>
 <script defer src="assets/cases.en.js"></script>
+<script defer src="assets/test-sequence.js"></script>
 <script defer src="app.js"></script>
 </head>
 <body>
@@ -25,7 +26,7 @@
     <ol class="story-steps">
       <li><strong>Start with single-column prose</strong><p>OpenThai Text had a 0.39% character error rate and a median time of 0.31 seconds per page in the 10-page sample.</p></li>
       <li><strong>Check that values stay in the right cells</strong><p>OpenThai Markdown kept all nine Do’s and nine Don’ts in their columns. Typhoon kept the left and right items paired by row.</p></li>
-      <li><strong>Try charts, screenshots, and flowcharts</strong><p>Check how well each model matches years to values, reads dashboard numbers in order, and follows arrows. <a href="#visual-cases">See the three cases</a></p></li>
+      <li><strong>Try charts, screenshots, and flowcharts</strong><p>Check how well each model matches years to values, reads dashboard numbers in order, and follows arrows. <a href="#visual-cases">See all seven tests in order</a></p></li>
       <li><strong>Pick a model for the audit task</strong><p>Start with Text for searchable prose, Markdown for multi-column content, and Typhoon with a focused prompt when you need a particular output structure.</p></li>
     </ol>
   </section>
@@ -49,25 +50,9 @@
   </section>
   <details class="qa"><summary>Questions sent to Qwen after OCR (Thai)</summary><p>The Q&amp;A run used four pages as evidence. The chart questions cover the National CERT chart.</p><pre id="questions" lang="th"></pre></details>
   <section class="story visual-cases" id="visual-cases" aria-labelledby="visual-title">
-    <h2 id="visual-title">Charts, screenshots, and flowcharts</h2>
-    <p>The full comparisons include source pages, prompts, raw OCR, and CER / BLEU for selected fields. Both Typhoon runs use the same model with different prompts.</p>
-    <div class="models">
-      <article class="model">
-        <h3>Bank of Thailand charts</h3>
-        <p>Markdown and Typhoon with a focused prompt matched all 26 year–value pairs on the labeled charts. Text read many values without linking them to years. Standard Typhoon left chart text empty. On the unlabeled chart, Markdown and focused Typhoon returned different values.</p>
-        <a href="assets/regulator-chart.jpg">Open the full chart comparison (Thai)</a>
-      </article>
-      <article class="model">
-        <h3>NCSA dashboard screenshot</h3>
-        <p>Text found all six numbers but swapped the first two. Typhoon with a focused prompt returned all six in order. Markdown and standard Typhoon missed the six dashboard numbers.</p>
-        <a href="assets/regulator-dashboard.jpg">Open the full dashboard comparison (Thai)</a>
-      </article>
-      <article class="model">
-        <h3>ETDA flowcharts</h3>
-        <p>Text read nearly all selected labels. Markdown converted the flowchart into a table. Standard Typhoon classified it as a figure. Typhoon with a focused prompt followed the most arrows, but still got only 6 of 12 right.</p>
-        <a href="assets/regulator-flow.jpg">Open the full flowchart comparison (Thai)</a>
-      </article>
-    </div>
+    <h2 id="visual-title">Seven tests in the order I ran them</h2>
+    <p>Open the full comparisons to see the original pages, prompts, OCR outputs, and scores.</p>
+    <ol id="test-sequence" class="test-sequence"></ol>
   </section>
   <footer><a href="https://github.com/lengtsp/openthai2.0_ocr_markdown_and_text_test">GitHub ↗</a><a id="official" target="_blank" rel="noopener">NCSA source PDF ↗</a></footer>
 </main>
