@@ -1,0 +1,102 @@
+{
+  "ocr_inputs": "Identical rendered PDF pages at 200 DPI, verified by SHA-256",
+  "reference": "GPT-6.1 Sol transcription from the page images",
+  "cer": "Normalized character edit rate, unknown reference spans masked, blank pages measured separately",
+  "numeric_token_f1": "Exact numeric token multiset F1 per page after Thai digit and grouping normalization; no row or cell positions",
+  "timing": "Request wall times from separate runs; OpenThai Text single CPU thread, Typhoon GPU up to four outstanding, OpenThai Markdown GPU up to four outstanding",
+  "all": {
+    "pages": 10,
+    "pages_with_cer": 10,
+    "blank_pages": 0,
+    "pages_with_unreadable_spans": 0,
+    "reference_chars": 19164,
+    "text": {
+      "cer": 0.0038614068044249637,
+      "numeric_token_f1": 0.943089430894309,
+      "pages_with_html_tables": 0,
+      "failures": 0,
+      "blank_false_positives": 0,
+      "median_request_seconds": 0.3143415
+    },
+    "typhoon": {
+      "cer": 0.004017950323523273,
+      "numeric_token_f1": 1.0,
+      "pages_with_html_tables": 0,
+      "failures": 0,
+      "blank_false_positives": 0,
+      "median_request_seconds": 4.531276999999999
+    },
+    "markdown": {
+      "cer": 0.00699227718639115,
+      "numeric_token_f1": 0.9841269841269841,
+      "pages_with_html_tables": 0,
+      "failures": 0,
+      "blank_false_positives": 0,
+      "median_request_seconds": 11.583835
+    }
+  },
+  "by_document": {
+    "ncsa-ai-security-guidelines": {
+      "pages": 6,
+      "pages_with_cer": 6,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 0,
+      "reference_chars": 10381,
+      "text": {
+        "cer": 0.0036605336672767557,
+        "numeric_token_f1": 0.907563025210084,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.295065
+      },
+      "typhoon": {
+        "cer": 0.005876119834312687,
+        "numeric_token_f1": 1.0,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 4.0910205
+      },
+      "markdown": {
+        "cer": 0.0008669685001444948,
+        "numeric_token_f1": 0.9672131147540983,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 10.4019885
+      }
+    },
+    "gazette-bot-85788": {
+      "pages": 4,
+      "pages_with_cer": 4,
+      "blank_pages": 0,
+      "pages_with_unreadable_spans": 0,
+      "reference_chars": 8783,
+      "text": {
+        "cer": 0.004098827279972675,
+        "numeric_token_f1": 0.9763779527559056,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 0.31795249999999997
+      },
+      "typhoon": {
+        "cer": 0.0018217010133211886,
+        "numeric_token_f1": 1.0,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 4.81607
+      },
+      "markdown": {
+        "cer": 0.014232039166571786,
+        "numeric_token_f1": 1.0,
+        "pages_with_html_tables": 0,
+        "failures": 0,
+        "blank_false_positives": 0,
+        "median_request_seconds": 13.696849499999999
+      }
+    }
+  }
+}

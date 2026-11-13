@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="เปรียบเทียบผล OCR สามโมเดลจากภาพเอกสาร สกมช. พร้อม Prompt และผลจริง">
-<title>เทียบ OCR เอกสาร สกมช. · IT Audit</title>
+<meta name="description" content="เทียบ OCR ภาษาไทยสามรุ่นกับข้อความ ตาราง กราฟ ภาพหน้าจอ และผังงานสำหรับ IT Audit">
+<title>เลือก OCR ภาษาไทยตามลักษณะหน้า · IT Audit</title>
 <link rel="stylesheet" href="style.css">
 <script defer src="assets/cases.js"></script>
 <script defer src="app.js"></script>
@@ -12,12 +12,21 @@
 <body>
 <header class="mast">
   <div class="wrap">
-    <p class="eyebrow">IT AUDIT <span></span> OCR BENCHMARK</p>
-    <h1>เทียบ OCR เอกสาร สกมช.</h1>
-    <p>ภาพต้นฉบับ Prompt และผลจริงจาก Typhoon OCR 2 2B, OpenThai Text และ OpenThai Markdown</p>
+    <h1>เลือก OCR ภาษาไทยตามลักษณะหน้า</h1>
+    <p>เทียบ OpenThai Text, OpenThai Markdown และ Typhoon OCR V2 2B จากเอกสารจริงในมุม IT Audit</p>
   </div>
 </header>
 <main class="wrap">
+  <section class="story" aria-labelledby="story-title">
+    <h2 id="story-title">จากข้อความธรรมดาถึงผังงาน</h2>
+    <ol class="story-steps">
+      <li><strong>เริ่มจากข้อความคอลัมน์เดียว</strong><p>ในชุด 10 หน้า OpenThai Text อ่านผิด 0.39% และใช้เวลาค่ากลาง 0.31 วินาทีต่อหน้า บนเครื่องที่ทดสอบ</p></li>
+      <li><strong>ดูว่าข้อมูลยังอยู่ถูกช่องหรือไม่</strong><p>OpenThai Markdown เก็บ Do’s และ Don’ts ได้ครบฝั่งละ 9 ข้อ ส่วน Typhoon เก็บรายการซ้าย–ขวาเป็นคู่ในแต่ละแถว</p></li>
+      <li><strong>เพิ่มกราฟ ภาพหน้าจอ และผังงาน</strong><p>ดูว่าแต่ละรุ่นจับคู่ปี เรียงตัวเลข และตามลูกศรได้แค่ไหน <a href="#visual-cases">ดูผล 3 เคส</a></p></li>
+      <li><strong>เลือกใช้กับงาน IT Audit</strong><p>ใช้ Text ดึงเนื้อหาไปค้น ใช้ Markdown อ่านหลายคอลัมน์ และลอง Typhoon แบบเจาะจงเมื่อต้องการรูปแบบผลลัพธ์เฉพาะ</p></li>
+    </ol>
+  </section>
+  <h2 id="interactive-cases" class="case-heading">ลองเทียบ Prompt และผล OCR ของ สกมช.</h2>
   <nav id="cases" aria-label="เลือกตัวอย่างเอกสาร"></nav>
   <section class="comparison" aria-labelledby="case-title">
     <div class="source">
@@ -36,6 +45,27 @@
     <div id="models" class="models"></div>
   </section>
   <details class="qa"><summary>คำถามที่ส่งให้ Qwen หลัง OCR</summary><p>รอบถามตอบใช้หลักฐาน 4 หน้า คำถามเรื่องกราฟครอบคลุม National CERT</p><pre id="questions"></pre></details>
+  <section class="story visual-cases" id="visual-cases" aria-labelledby="visual-title">
+    <h2 id="visual-title">กราฟ ภาพหน้าจอ และผังงาน</h2>
+    <p>ภาพเต็มมีต้นฉบับ Prompt ผล OCR และคะแนน CER / BLEU เฉพาะจุดที่ตรวจ Typhoon ใช้โมเดลเดียวกันทั้งแบบมาตรฐานและแบบเจาะจง</p>
+    <div class="models">
+      <article class="model">
+        <h3>กราฟ ธปท.</h3>
+        <p>Markdown กับ Typhoon แบบเจาะจงจับคู่ปีและค่าได้ครบ 26/26 จุดในกราฟที่พิมพ์ค่าไว้ ส่วน Text อ่านได้หลายค่าแต่ยังไม่จับคู่ปี และ Typhoon มาตรฐานไม่ถอดเลขในกราฟ เมื่อไม่มีป้ายกำกับ ทั้ง Markdown และ Typhoon แบบเจาะจงคืนค่าต่างกัน</p>
+        <a href="assets/regulator-chart.jpg">เปิดภาพกราฟและผล OCR เต็ม</a>
+      </article>
+      <article class="model">
+        <h3>ภาพหน้าจอ สกมช.</h3>
+        <p>Text อ่านเลขครบ 6 ค่าแต่สลับสองตัวแรก ส่วน Typhoon แบบเจาะจงอ่านครบและเรียงถูก Markdown และ Typhoon มาตรฐานพลาดเลขชุดนี้บนจอ</p>
+        <a href="assets/regulator-dashboard.jpg">เปิดภาพหน้าจอและผล OCR เต็ม</a>
+      </article>
+      <article class="model">
+        <h3>ผังงาน ETDA</h3>
+        <p>Text อ่านชื่อกล่องได้เกือบครบ Markdown แปลงผังเป็นตาราง ส่วน Typhoon มาตรฐานจัดเป็นภาพ Typhoon แบบเจาะจงตามลูกศรได้ดีที่สุด แต่ยังถูกเพียง 6/12 เส้น</p>
+        <a href="assets/regulator-flow.jpg">เปิดผังงานและผล OCR เต็ม</a>
+      </article>
+    </div>
+  </section>
   <footer><a href="https://github.com/lengtsp/openthai2.0_ocr_markdown_and_text_test">GitHub ↗</a><a id="official" target="_blank" rel="noopener">PDF จาก สกมช. ↗</a></footer>
 </main>
 </body>
