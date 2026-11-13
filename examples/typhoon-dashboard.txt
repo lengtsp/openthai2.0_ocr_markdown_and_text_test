@@ -1,0 +1,1 @@
+What six numbers are printed across the top of the dashboard on the monitor? List only the printed numbers, including the two stacked at the second position, in reading order. No explanation.

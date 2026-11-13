@@ -4,6 +4,18 @@
 
 A single PDF can contain paragraphs, tables, slides, and flowcharts. I gave **OpenThai OCR Text**, **OpenThai OCR Markdown**, and **Typhoon OCR V2 2B** the same page images and checked both how accurately they read the text and whether they kept related information together.
 
+## Code examples for all three models
+
+The examples take the same page image. OpenThai Text runs on the CPU, while OpenThai Markdown and Typhoon connect to local vLLM servers.
+
+```sh
+python examples/openthai_text.py page.png
+python examples/openthai_markdown.py page.png
+python examples/typhoon_ocr.py page.png
+```
+
+[Setup, Python source, and Typhoon prompts](examples/README.md)
+
 ## 1. Start with single-column text
 
 On 10 pages of continuous prose, OpenThai Text had a **0.39% character error rate (CER)**, close to Typhoon at **0.40%** and ahead of OpenThai Markdown at **0.70%**. Median request times were **0.31**, **4.53**, and **11.58 seconds** respectively on the test machine. I would start with Text when making policies or manuals searchable. [Results for the 10-page sample](data/prose-results.json)

@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+[ตัวอย่างโค้ด Python ทั้ง 3 โมเดล พร้อมวิธีติดตั้งและ Prompt](examples/README.md)
+
 ใน PDF เล่มเดียวกันอาจมีทั้งย่อหน้า ตาราง สไลด์ และผังงาน ผมลองให้ **OpenThai OCR Text**, **OpenThai OCR Markdown** และ **Typhoon OCR V2 2B** อ่านภาพหน้าเดียวกัน แล้วดูทั้งว่าถอดข้อความได้ตรงแค่ไหนและยังจับคู่ข้อมูลตามต้นฉบับได้หรือเปล่า
 
 [เปิดเว็บเปรียบเทียบภาษาไทย](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/th.html)
