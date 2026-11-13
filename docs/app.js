@@ -1,6 +1,17 @@
 "use strict";
 const byId = (id) => document.getElementById(id);
 const models = ["Typhoon OCR 2 2B", "OpenThai Text", "OpenThai Markdown"];
+const isThai = document.documentElement.lang === "th";
+const cases = isThai ? comparisonData.cases : comparisonData.cases.map(englishCase);
+const languageLink = document.querySelector(".language-link");
+const languagePath = languageLink.getAttribute("href");
+const labels = isThai
+  ? {source: "ภาพต้นฉบับ", prompt: "Prompt / วิธีเรียก", output: "ผล OCR เต็มหน้า"}
+  : {source: "Source image for", prompt: "Prompt / invocation", output: "Full OCR output (original language)"};
+
+function updateLanguageLink() {
+  languageLink.href = languagePath + location.hash;
+}
 
 function element(tag, text, className) {
   const node = document.createElement(tag);
@@ -23,7 +34,7 @@ function render(item) {
   byId("case-title").textContent = item.title;
   byId("description").textContent = item.description;
   byId("source-image").src = "assets/" + item.id + ".webp";
-  byId("source-image").alt = "ภาพต้นฉบับ " + item.title;
+  byId("source-image").alt = labels.source + " " + item.title;
   byId("full-image").href = "assets/" + item.page + ".webp";
   byId("official").href = item.official;
 
@@ -48,24 +59,26 @@ function render(item) {
     const result = comparisonData.pages[item.page][index];
     const [note, excerpt] = item.notes[index];
     card.append(element("h3", model), element("p", note), element("pre", excerpt, "excerpt"),
-      disclosure("Prompt / วิธีเรียก", comparisonData.prompts[index]),
-      disclosure("ผล OCR เต็มหน้า", result));
+      disclosure(labels.prompt, comparisonData.prompts[index]),
+      disclosure(labels.output, result));
     return card;
   }));
 }
 
 function activeCase() {
-  const item = comparisonData.cases.find((entry) => "#" + entry.id === location.hash);
-  render(item || comparisonData.cases[0]);
+  const item = cases.find((entry) => "#" + entry.id === location.hash);
+  render(item || cases[0]);
+  updateLanguageLink();
 }
 
-for (const item of comparisonData.cases) {
+for (const item of cases) {
   const button = element("button", item.tab);
   button.type = "button";
   button.dataset.case = item.id;
   button.addEventListener("click", () => {
     history.replaceState(null, "", "#" + item.id);
     render(item);
+    updateLanguageLink();
   });
   byId("cases").append(button);
 }

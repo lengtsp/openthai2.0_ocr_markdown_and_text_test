@@ -3,6 +3,7 @@
 @media(max-width:850px){.wrap{width:calc(100% - 36px)}.comparison{grid-template-columns:1fr;gap:12px}.models{grid-template-columns:1fr}.model p{min-height:0}.source img{height:min(330px,65vw)}}@media(max-width:460px){.wrap{width:calc(100% - 24px)}.findings{padding:13px}.mast{padding:23px 0}.source img{height:58vw}.outputs .section-label{align-items:start}.outputs h2{font-size:19px}}
 
 .story{margin:18px 0 22px}.story h2,.case-heading{font-size:22px}
+.mast .language-link{display:inline-block;color:#c6ded8;font-size:14px}
 .story-steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:9px 0 0;padding:0;list-style-position:inside}
 .story-steps li{background:var(--white);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
 .story-steps li::marker{color:var(--accent);font-weight:700}

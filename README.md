@@ -1,140 +1,113 @@
-# รีวิว OCR ภาษาไทยสามรุ่นบน PDF จริง
+# Thai OCR benchmark for IT audit
 
-ใน PDF เล่มเดียวกันอาจมีทั้งย่อหน้า ตาราง สไลด์ และผังงาน ผมลองให้ **OpenThai OCR Text**, **OpenThai OCR Markdown** และ **Typhoon OCR V2 2B** อ่านภาพหน้าเดียวกัน แล้วดูทั้งว่าถอดข้อความได้ตรงแค่ไหนและยังจับคู่ข้อมูลตามต้นฉบับได้หรือเปล่า
+[ภาษาไทย](README.th.md) · [Open the interactive comparison](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/)
 
-[เปิดเว็บเปรียบเทียบ](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/)
+A single PDF can contain paragraphs, tables, slides, and flowcharts. I gave **OpenThai OCR Text**, **OpenThai OCR Markdown**, and **Typhoon OCR V2 2B** the same page images and checked both how accurately they read the text and whether they kept related information together.
 
-## 1. เริ่มจากข้อความอ่านต่อเนื่อง
+## 1. Start with single-column text
 
-ในชุดย่อย 10 หน้าที่เน้นข้อความคอลัมน์เดียว OpenThai Text อ่านผิด **0.39%** ใกล้กับ Typhoon ที่ **0.40%** และ OpenThai Markdown ที่ **0.70%** เวลาต่อหน้าค่ากลางอยู่ที่ **0.31**, **4.53** และ **11.58 วินาที** ตามลำดับบนเครื่องที่ทดสอบ ถ้าโจทย์คือดึงย่อหน้าจากคู่มือหรือนโยบายไปค้นต่อ ผมเริ่มที่ OpenThai Text [ผลชุดข้อความ 10 หน้า](data/prose-results.json)
+On 10 pages of continuous prose, OpenThai Text had a **0.39% character error rate (CER)**, close to Typhoon at **0.40%** and ahead of OpenThai Markdown at **0.70%**. Median request times were **0.31**, **4.53**, and **11.58 seconds** respectively on the test machine. I would start with Text when making policies or manuals searchable. [Results for the 10-page sample](data/prose-results.json)
 
-## 2. ดูว่าตารางและสไลด์เก็บตำแหน่งได้แค่ไหน
+## 2. Check whether tables and slides keep information in the right place
 
-OpenThai Markdown เหมาะกับการอ่านทีละคอลัมน์ เช่น รายการ Do’s และ Don’ts ของ สกมช. ที่เก็บได้ครบ **9 ข้อต่อฝั่ง** ส่วน Typhoon มีประโยชน์เมื่อโจทย์ต้องการให้เก็บคู่ซ้าย–ขวาของแต่ละแถวเป็น HTML พอเป็นสไลด์หลายกล่อง ต้องตรวจลำดับอ่านเพิ่ม เพราะคำอาจถูกแต่ไปอยู่กับอีกหัวข้อหนึ่ง
+OpenThai Markdown kept all **nine items per column** in an NCSA Do’s and Don’ts example. Typhoon returned the left and right items as HTML row pairs, which is useful when you want to keep each pair together. On slides with multiple text boxes, check the reading order before using the output.
 
-### คะแนนจากชุดทดสอบแยกตามรูปแบบหน้า
-
-OpenThai OCR Text ทำได้ใกล้ Typhoon OCR 2 2B และ OpenThai OCR Markdown ที่สุดในหน้าเน้นข้อความอ่านต่อเนื่อง แต่ผลต่างกว้างขึ้นเมื่อข้อมูลอยู่ในตารางหรือกระจายหลายกล่องบนสไลด์
-
-| ประเภทหน้า | จำนวนหน้า | OpenThai Text | Typhoon OCR 2 2B | OpenThai Markdown |
+| Page type | Pages | OpenThai Text | Typhoon OCR V2 2B | OpenThai Markdown |
 |---|---:|---:|---:|---:|
-| ข้อความอ่านต่อเนื่อง | 30 | 2.35% | **1.69%** | 1.70% |
-| ตารางไม่ซับซ้อน | 5 | 9.25% | **1.71%** | 2.50% |
-| ตารางซับซ้อน | 13 | 23.28% | 20.25% | **10.66%** |
-| สไลด์ ธปท. ที่ส่งออกเป็น PDF | 33 | 52.56% | **18.55%** | 21.88% |
+| Continuous prose | 30 | 2.35% | **1.69%** | 1.70% |
+| Simple tables | 5 | 9.25% | **1.71%** | 2.50% |
+| Complex tables | 13 | 23.28% | 20.25% | **10.66%** |
+| Bank of Thailand slides exported to PDF | 33 | 52.56% | **18.55%** | 21.88% |
 
-แต่ละแถวเทียบทั้งสามโมเดลบนหน้าเดียวกันด้วยอัตราความผิดพลาดของตัวอักษร (CER) ยิ่งต่ำยิ่งดี แถวสไลด์มาจากเอกสาร ธปท. หนึ่งฉบับ และบางหน้าซ้ำกับกลุ่มข้อความหรือตาราง [ผลแยกตามรูปแบบหน้า](qwen-ocr-routing.md) · [คะแนนรายหน้า](data/per-page.csv)
+Each row compares CER across the same pages. Lower is better. The slide group comes from one Bank of Thailand deck and overlaps with some text and table pages. [Results by page type (Thai)](qwen-ocr-routing.md) · [Per-page scores](data/per-page.csv)
 
-- **ข้อความ** OpenThai Text ตามคะแนนที่ดีที่สุด 0.66 จุดเปอร์เซ็นต์ในกลุ่มข้อความอ่านต่อเนื่อง เหมาะกับการดึงย่อหน้าจากนโยบายหรือคู่มือไปค้นและทำดัชนี [ผลแยกตามรูปแบบหน้า](qwen-ocr-routing.md)
-- **ตาราง** ตารางรายเดือน สกมช. ได้ตัวเลขถูกแถวและเดือน 75/130 ช่องสำหรับ Text และ 130/130 สำหรับ Typhoon กับ Markdown ส่วนแบบกระทบยอดธนาคารจำลองได้ 89/90, 90/90 และ 89/90 ตามลำดับ สำหรับ IT Audit ให้ตรวจความถูกต้องรายช่องก่อนใช้ยอดเงินหรือสถานะประกอบข้อค้นพบ [ตารางรายเดือน สกมช.](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#monthly) · [ผลทดสอบ Internal Audit](internal-audit-ocr-review.md)
-- **สไลด์** หน้า 23 ที่มี bullet กลุ่มเดียวได้ CER 10.94%, 7.29% และ 0.96% ตามลำดับ ส่วนหน้า 27 ที่ฝังภาพฟอร์มได้ 84.64%, 1.44% และ 8.00% ตามลำดับ [PDF สไลด์ ธปท. หน้า 27](https://www.bot.or.th/content/dam/bot/documents/th/our-roles/payment-systems/payment/payment-all-hearing/payment-supervisory-data.pdf#page=27) · [คะแนนรายหน้า](data/per-page.csv)
+- **Tables.** On the NCSA monthly table, OpenThai Text put **75/130** values in the correct row and month. Typhoon and Markdown each got **130/130**. On a simulated bank reconciliation, the three models scored **89/90**, **90/90**, and **89/90**, respectively. [NCSA monthly table](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#monthly) · [Internal audit results (Thai)](internal-audit-ocr-review.md)
+- **Slides.** On page 23, with a single bullet group, CER was **10.94%**, **7.29%**, and **0.96%** for Text, Typhoon, and Markdown respectively. On page 27, which embeds a form image, the scores were **84.64%**, **1.44%**, and **8.00%**. [Bank of Thailand PDF, page 27](https://www.bot.or.th/content/dam/bot/documents/th/our-roles/payment-systems/payment/payment-all-hearing/payment-supervisory-data.pdf#page=27) · [Per-page scores](data/per-page.csv)
 
-## 3. เพิ่มกราฟ ภาพหน้าจอ และผังงาน
+## 3. Try charts, screenshots, and flowcharts
 
-| ตัวอย่าง | OpenThai Text | OpenThai Markdown | Typhoon มาตรฐาน | Typhoon แบบถามเจาะจง |
+Typhoon appears twice below because I tested the same model with its standard prompt and with a prompt tailored to the task.
+
+| Example | OpenThai Text | OpenThai Markdown | Typhoon, standard prompt | Typhoon, focused prompt |
 |---|---|---|---|---|
-| กราฟ ธปท. หน้า 7 | อ่านได้หลายค่า แต่ยังไม่จับคู่ปี | **26/26** คู่ปีและค่า | 0/26 คู่ | **26/26** คู่ปีและค่า |
-| ภาพหน้าจอ สกมช. หน้า 8 | **6/6** ค่า สลับสองตัวแรก | 0/6 ค่า | 0/6 ค่า | **6/6** ค่า เรียงถูก |
-| ผังงาน ETDA หน้า 24 และ 26 | ชื่อกล่องเกือบครบ · 0/12 ลูกศร | แปลงเป็นตาราง · 0/12 ลูกศร | จัดเป็นภาพ · 0/12 ลูกศร | **6/12** ลูกศร |
+| Bank of Thailand chart, p. 7 | Read many values without linking them to years | **26/26** year–value pairs | 0/26 pairs | **26/26** pairs |
+| NCSA dashboard screenshot, p. 8 | **6/6** numbers, first two swapped | 0/6 numbers | 0/6 numbers | **6/6** numbers in order |
+| ETDA flowcharts, pp. 24 and 26 | Read nearly all selected labels, 0/12 arrows | Converted the flowchart into a table, 0/12 arrows | Classified it as a figure, 0/12 arrows | **6/12** arrows |
 
-- **กราฟ ธปท.** ถ้ากราฟพิมพ์ตัวเลขไว้ Markdown กับ Typhoon แบบถามเฉพาะกราฟทำได้พอกัน พอเป็นกราฟแท่งซ้อนหน้า 8 ที่ไม่มีเลขกำกับ ทั้งคู่คืนค่าต่างกัน เช่น Internet banking ปี 2567 ได้ 400,000 กับ 450,000 จึงต้องเปิดข้อมูลต้นทางก่อนอ้างตัวเลข [ภาพเปรียบเทียบกราฟ](docs/assets/regulator-chart.jpg) · [PDF ธปท.](https://www.bot.or.th/content/dam/bot/documents/th/our-roles/payment-systems/payment-systems-policy/payment-directional-paper-2568-th.pdf#page=7)
-- **ภาพหน้าจอ สกมช.** Text พบเลขครบ แต่คืน `284` ก่อน `747` ส่วน Typhoon แบบถามเฉพาะเลขบนจอคืนครบและเรียงตรงภาพ คะแนนนี้วัดตัวเลขที่เลือกตรวจ ชื่อมาตรวัดต้องเช็กแยก [ภาพเปรียบเทียบหน้าจอ](docs/assets/regulator-dashboard.jpg) · [PDF สกมช.](https://www.ncsa.or.th/media/uploads/2025/03/14/ncsa-annual-2024_e-book_uid_67d3ad045e4fa.pdf#page=8)
-- **ผังงาน ETDA** Text เหมาะกับการดึงชื่อขั้นตอนไปค้น ส่วน Typhoon แบบเจาะจงตามลูกศรได้ดีที่สุดในตัวอย่างนี้ แต่ยังอ่านทางแยกผิด เช่น เมื่อข้อมูลครบ ต้นฉบับให้ไปลงลายมือชื่ออิเล็กทรอนิกส์ แต่ผล OCR พาไปปฏิเสธรายการ [ภาพเปรียบเทียบผังงาน](docs/assets/regulator-flow.jpg) · [แหล่ง PDF และหน้าที่ทดสอบ](data/regulator-visual/sources.json)
+- **Bank of Thailand charts.** Markdown and Typhoon with a focused prompt tied on the labeled charts. On the unlabeled stacked chart on page 8, they gave different figures for 2024 internet banking: 400,000 and 450,000. Check the source data before citing a value that the chart does not print. [Full comparison image (Thai)](docs/assets/regulator-chart.jpg) · [Bank of Thailand PDF](https://www.bot.or.th/content/dam/bot/documents/th/our-roles/payment-systems/payment-systems-policy/payment-directional-paper-2568-th.pdf#page=7)
+- **NCSA dashboard.** Text found all six numbers but returned `284` before `747`. Typhoon, when asked for those six numbers, returned them in the right order. This check covered the numbers. Their metric labels need a separate check. [Full comparison image (Thai)](docs/assets/regulator-dashboard.jpg) · [NCSA PDF](https://www.ncsa.or.th/media/uploads/2025/03/14/ncsa-annual-2024_e-book_uid_67d3ad045e4fa.pdf#page=8)
+- **ETDA flowcharts.** Text recovered most of the selected step labels. A focused Typhoon prompt followed more arrows than the other runs, but still sent a complete-information case to rejection where the original directs the customer to sign electronically. [Full comparison image (Thai)](docs/assets/regulator-flow.jpg) · [Source PDFs](data/regulator-visual/sources.json)
 
 <details>
-<summary>ดู CER และ BLEU ของจุดที่เลือกตรวจ</summary>
+<summary>Character error rate and BLEU for the selected fields</summary>
 
-| จุดที่วัด | OpenThai Text | OpenThai Markdown | Typhoon มาตรฐาน | Typhoon แบบถามเจาะจง |
+| What was scored | OpenThai Text | OpenThai Markdown | Typhoon, standard prompt | Typhoon, focused prompt |
 |---|---:|---:|---:|---:|
-| กราฟ ธปท. หน้า 7 · ค่าที่พิมพ์ 26 จุด | 6.38% / 86.81 | 0.00% / 100.00 | 100.00% / 0.00 | 0.00% / 100.00 |
-| หน้าจอ สกมช. หน้า 8 · เลข 6 ค่าตามลำดับ | 33.33% / 76.68 | 100.00% / 0.00 | 100.00% / 0.00 | 0.00% / 100.00 |
-| ผังฝากเช็ค ETDA หน้า 24 · ชื่อกล่อง 8 จุด | 0.70% / 99.23 | 22.38% / 74.95 | 100.00% / 0.00 | 0.00% / 100.00 |
-| ผังถอนเงิน ETDA หน้า 26 · ชื่อกล่อง 8 จุด | 0.63% / 98.78 | 75.95% / 4.25 | 100.00% / 0.00 | 0.00% / 100.00 |
+| Bank of Thailand chart, p. 7 · 26 printed values | 6.38% / 86.81 | 0.00% / 100.00 | 100.00% / 0.00 | 0.00% / 100.00 |
+| NCSA dashboard, p. 8 · six numbers in reading order | 33.33% / 76.68 | 100.00% / 0.00 | 100.00% / 0.00 | 0.00% / 100.00 |
+| ETDA cheque deposit, p. 24 · eight step labels | 0.70% / 99.23 | 22.38% / 74.95 | 100.00% / 0.00 | 0.00% / 100.00 |
+| ETDA cash withdrawal, p. 26 · eight step labels | 0.63% / 98.78 | 75.95% / 4.25 | 100.00% / 0.00 | 0.00% / 100.00 |
 
-แต่ละช่องแสดง **CER / BLEU ระดับตัวอักษร** เฉพาะจุดที่ระบุ CER ยิ่งต่ำยิ่งดี ส่วน BLEU ยิ่งใกล้ 100 ยิ่งดี ค่าที่ไม่คืนถูกนับเป็นข้อความว่าง คะแนนลูกศรและการจับคู่ปี–ค่าอยู่ในตารางด้านบน กราฟแท่งซ้อนหน้า 8 เว้นคะแนนค่ารายปีเพราะภาพไม่มีตัวเลขกำกับแต่ละส่วน [รายการตรวจลูกศร](data/regulator-visual/flow-review.json)
+Each cell shows **CER / character-level BLEU** for the selected fields. Lower CER and higher BLEU are better. Missing fields count as empty text. The table above tracks year–value pairs and arrows separately. The stacked chart on page 8 had no printed per-series values to score. [Arrow checks](data/regulator-visual/flow-review.json)
 
 </details>
 
-## 4. เลือกใช้ในงาน IT Audit
+## 4. Pick a model for the audit task
 
-ผมจะใช้ **OpenThai Text** กับหน้าเนื้อหาที่ต้องค้น ใช้ **OpenThai Markdown** กับรายการหลายคอลัมน์หรือกราฟที่มีค่ากำกับ และใช้ **Typhoon แบบเจาะจง** เมื่ออยากได้ตัวเลขบนภาพ คู่ข้อมูลในแต่ละแถว หรือเส้นทางในผังงาน ก่อนนำไปอ้างในรายงาน ผมจะย้อนดูว่าตัวเลขอยู่กับหัวข้อ ปี และหน่วยที่ถูกต้อง รวมถึงตรวจว่าลูกศรพาไปยังขั้นตอนที่ตรงกับเงื่อนไข [ผลทดสอบ Internal Audit](internal-audit-ocr-review.md)
+I would use **OpenThai Text** to make prose searchable, **OpenThai Markdown** for multi-column lists or charts with printed values, and **Typhoon with a focused prompt** when I need numbers from a screenshot, row pairs, or an initial reading of a flowchart. Before citing the output in an audit report, I would verify each value against its heading, year, and unit, and check that each decision arrow leads to the right step. [Internal audit results (Thai)](internal-audit-ocr-review.md)
 
-## ตัวอย่างโต้ตอบจากเอกสาร สกมช.
+## Interactive NCSA examples
 
-[เปิดเว็บเปรียบเทียบ](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/) · [ซอร์สเว็บและข้อมูลผล OCR](docs/)
+Compare the source image, prompt, and full OCR output for a pie chart, a National CERT chart, a monthly table, and two pages of a control matrix. [Open the interactive comparison](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/) · [Website source](docs/)
 
-สลับดูกราฟวงกลม กราฟ National CERT ตารางรายเดือน และตารางมาตรการสองหน้า เทียบภาพต้นฉบับกับผลจริงจาก Typhoon OCR 2 2B, OpenThai Text และ OpenThai Markdown พร้อมเปิดดู Prompt หรือวิธีเรียกของแต่ละรุ่นได้
+- **ThaiCERT pie chart.** OpenThai Markdown read the category names but assigned 32.6% to Intrusions. The image assigns it to Vulnerability. [Open the pie chart comparison](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#pie)
+- **National CERT chart.** OpenThai Markdown matched all seven categories and their values in order, but missed the printed total of 135. Typhoon’s standard prompt calls for an empty text field on figure blocks. [Open the National CERT comparison](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#funnel)
 
-**กราฟวงกลม ThaiCERT** · OpenThai Markdown อ่านชื่อหมวดได้ แต่จับคู่เปอร์เซ็นต์ผิด เช่น 32.6% เป็นของ Vulnerability ในภาพ ส่วนผล OCR ผูกกับ Intrusions
+[![Preview of the ThaiCERT pie chart comparison](docs/assets/preview-pie.jpg)](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#pie)
 
-[![หน้าเว็บเปรียบเทียบกราฟวงกลมกับผล OCR ของสามโมเดล](docs/assets/preview-pie.jpg)](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#pie)
+[![Preview of the National CERT chart comparison](docs/assets/preview-funnel.jpg)](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#funnel)
 
-**กราฟ National CERT** · Markdown เก็บชื่อและค่าครบทั้ง 7 หมวดตามลำดับภาพ ป้ายยอดรวม 135 หลุดจากผล OCR ส่วน Typhoon ใช้ Prompt ที่กำหนดให้ข้อความของบล็อกภาพว่าง
+## Results across 293 pages
 
-[![หน้าเว็บเปรียบเทียบกราฟ National CERT กับผล OCR ของสามโมเดล](docs/assets/preview-funnel.jpg)](https://lengtsp.github.io/openthai2.0_ocr_markdown_and_text_test/#funnel)
+Across six public PDFs, **Typhoon OCR V2 2B had the lowest overall CER (5.07%)**. OpenThai Text had the shortest median request time on the test machine.
 
-จาก PDF สาธารณะ 6 ฉบับ 293 หน้า **Typhoon OCR V2 2B มี CER รวมต่ำที่สุด (5.07%)** ส่วน OpenThai Text ใช้เวลาต่อหน้าต่ำที่สุดในชุดทดสอบนี้ ผลต่างกันตามเอกสาร จึงควรดูคะแนนรายฉบับและรูปแบบผลลัพธ์ประกอบ
-
-| ตัวชี้วัด | Typhoon OCR V2 2B | OpenThai Text | OpenThai Markdown |
+| Metric | Typhoon OCR V2 2B | OpenThai Text | OpenThai Markdown |
 |---|---:|---:|---:|
-| CER รวม ↓ | 5.07% | 7.98% | 5.96% |
-| F1 ของโทเคนตัวเลข ↑ | 98.02% | 96.35% | 96.55% |
-| หน้าที่มีตาราง HTML ในผลลัพธ์ | 139 | 0 | 142 |
-| หน้าที่ผลลัพธ์ไม่สมบูรณ์ | 1 | 0 | 0 |
-| หน้าว่างที่มีข้อความเกิน | 0 | 0 | 7 |
-| เวลามัธยฐานต่อคำขอ (วินาที) | 4.55 | 0.27 | 8.74 |
+| Overall CER ↓ | 5.07% | 7.98% | 5.96% |
+| Numeric token F1 ↑ | 98.02% | 96.35% | 96.55% |
+| Pages with HTML tables | 139 | 0 | 142 |
+| Pages with incomplete output | 1 | 0 | 0 |
+| Blank pages with spurious text | 0 | 0 | 7 |
+| Median request time (seconds) | 4.55 | 0.27 | 8.74 |
 
-CER วัดการแทนที่ ลบ และเพิ่มอักขระตามลำดับการอ่านหลังปรับ Unicode และตัดช่องว่าง คะแนนต่ำกว่าหมายถึงผลใกล้ข้อความอ้างอิงกว่า ส่วน F1 ตัวเลขวัดความตรงของโทเคนตัวเลขภายในหน้า จึงอาจได้คะแนนสูงแม้ยอดอยู่ผิดช่อง จำนวนหน้าที่ได้ตาราง HTML บอกความครอบคลุมของผลลัพธ์ประเภทนี้เท่านั้น
+CER counts character substitutions, deletions, and insertions after Unicode normalization and removal of whitespace. Numeric token F1 checks numbers within a page, so a correct amount in the wrong cell can still contribute to a high score.
 
-## ผลตามเอกสาร
-
-| เอกสาร | หน้าที่คิด CER | Typhoon OCR V2 2B | OpenThai Text | OpenThai Markdown |
+| Document | Pages scored for CER | Typhoon OCR V2 2B | OpenThai Text | OpenThai Markdown |
 |---|---:|---:|---:|---:|
-| งบการเงิน ธปท. 2568 | 82 | 0.72% | 2.20% | 1.36% |
-| สไลด์ระบบชำระเงิน ธปท. | 33 | 18.55% | 52.56% | 21.88% |
-| งบประมาณโดยสังเขป 2569 | 137 | 5.00% | 2.76% | 5.39% |
-| ราชกิจจานุเบกษา ประกาศ ธปท. | 15 | 1.30% | 1.42% | 2.51% |
-| ราชกิจจานุเบกษาฉบับสแกน พ.ศ. 2475 | 14 | 1.34% | 3.14% | 1.50% |
-| แบบ ภ.ง.ด. 90/91 และใบแนบ | 5 | 25.54% | 47.53% | 29.58% |
+| Bank of Thailand financial statements, 2025 | 82 | 0.72% | 2.20% | 1.36% |
+| Bank of Thailand payment systems slides | 33 | 18.55% | 52.56% | 21.88% |
+| Thailand’s Budget in Brief, FY 2026 | 137 | 5.00% | 2.76% | 5.39% |
+| Royal Gazette, Bank of Thailand notice | 15 | 1.30% | 1.42% | 2.51% |
+| Scanned Royal Gazette, 1932 | 14 | 1.34% | 3.14% | 1.50% |
+| Thai personal income tax forms P.N.D. 90/91 and schedules | 5 | 25.54% | 47.53% | 29.58% |
 
-## ตารางและลำดับการอ่าน
+### Where the layout changed the result
 
-ตัวอย่างที่ตรวจจากต้นฉบับคือ **งบการเงิน ธปท. 2568 หน้า PDF 7** ตรวจยอดของ 3 รายการในคอลัมน์ปี 2568 และ 2567 รวม 6 ช่อง โดยคงวงเล็บของยอดติดลบไว้
+- On Bank of Thailand financial statements page 7, both Typhoon and Markdown recovered six amounts in the right cells. Markdown replaced the 2024 heading with “Unit: baht,” which dropped its score to **3/6** once the year was checked. Typhoon stayed at **6/6**. OpenThai Text returned lines and coordinates. [Six-cell check](data/table-spotcheck.json)
+- On Budget in Brief page 113, Typhoon and Markdown split a diagonal heading into two columns and associated all six sampled amounts with the wrong headings. [Budget table check](data/budget-table-spotcheck.json)
+- OpenThai Markdown returned spurious text on seven blank pages. The blank-page check flagged all seven while flagging zero nonblank pages in this dataset. The main scores use the unfiltered run. [Blank-page check](data/blank-gate.json)
 
-| รุ่น | ผลตรวจโครงสร้างและยอดเงิน |
-|---|---|
-| Typhoon OCR V2 2B | 6/6 ตามตำแหน่ง และ 6/6 เมื่อเช็กหัวปีด้วย |
-| OpenThai Text | ข้อความพร้อมพิกัดบรรทัด |
-| OpenThai Markdown | 6/6 ตามตำแหน่ง และ 3/6 เมื่อเช็กหัวปีด้วย |
+## Test setup and limitations
 
-OpenThai Markdown วางยอดเงินในคอลัมน์ตัวเลขตามภาพได้ครบ แต่แทนหัวปี **2567** ด้วยข้อความ **หน่วย : บาท** การอ่านตัวเลขถูกจึงยังต้องตรวจชื่อคอลัมน์ก่อนนำไปใช้
+- All three models received the same 200 DPI page images, verified by SHA-256. The six-PDF benchmark has 286 scored pages and seven blank pages. Unreadable reference spans on 13 pages were masked. Overlap with model training data was not assessed.
+- GPT‑6.1 Sol transcribed the source images without seeing the OCR outputs. Selected examples were checked visually. Markdown and HTML were converted to text in output order before computing CER. Truncated or unparseable responses counted as failures. Typhoon had one such case on the first PDF page of form P.N.D. 90.
+- OpenThai Text used OpenVINO on one CPU thread. Both structured models ran on an RTX PRO 6000 Blackwell with up to four concurrent requests. OpenThai Markdown used the 2.52 GB revision `7a153712e5b50fac7e4a9d42ccf9ec41fb4202f0`, with single-pass inference at temperature 0 on vLLM 0.27.1 in eager mode with MTP disabled and the model author’s parser. Typhoon used vLLM 0.33.0 and the standard prompt for the main benchmark.
+- Median times exclude PDF conversion and model loading. The runs were measured separately and the Markdown timings include initial warm-up requests.
 
-ใน **งบประมาณ หน้า PDF 113** ทั้ง Typhoon และ OpenThai Markdown อ่านยอดที่ตรวจ 6 ช่องได้ตรงตามตำแหน่งในแถว แต่แยกช่องหัวตารางแนวทแยงของต้นฉบับเป็นสองคอลัมน์ ทำให้หัวตารางเลื่อนและจับคู่ยอดกับหัวคอลัมน์ผิดทั้ง 6 ช่องที่ตรวจ
+[Document sources and SHA-256](data/sources.json) · [Per-page scores](data/per-page.csv) · [Aggregate results](data/results.json)
 
-ชุดสไลด์มีข้อความในหลายคอลัมน์และตารางซ้อนหัวคอลัมน์ CER จึงสะท้อนทั้งความตรงของข้อความและการจัดลำดับ ส่วนผลตรวจ 6 ช่องเป็นตัวอย่างที่ตรวจด้วยสายตาและไม่ใช่คะแนนความถูกต้องรายช่องของทั้งชุด
+## Further reading
 
-## หน้าว่างและความเสถียร
+[NCSA 27-page review (Thai)](ncsa-ocr-review.md) · [Full 152-page NCSA annual report review (Thai)](ncsa-annual-full-review.md) · [Qwen page routing (Thai)](qwen-ocr-routing.md) · [Qwen reference transcription (Thai)](qwen-ground-truth-review.md) · [Publishing guidelines (Thai)](PUBLISHING.md)
 
-PDF งบประมาณหน้า 6 เป็นหน้าว่างจริง แต่ OpenThai Markdown คืนรายการปีตั้งแต่ 2014 เป็นต้นไป การตรวจภาพที่พิกเซลสว่างทั้งหมดก่อนส่งเข้า OCR ตรวจพบหน้าว่าง 7 หน้าและตัดหน้าที่มีข้อความผิด 0 หน้าในชุดนี้ ผล CER หลักใช้ผลที่รันโดยยังไม่เปิดตัวกรองดังกล่าว
-
-## การใช้งานและเวลา
-
-- **OpenThai Text** ส่งคืนข้อความ พิกัด และความมั่นใจรายบรรทัด รันบน CPU ได้ เหมาะกับการอ่านข้อความหรือทำดัชนีในงานที่ไม่ต้องการโครงสร้างตาราง
-- **OpenThai Markdown** ส่งคืน Markdown พร้อม HTML สำหรับตารางและพิกัดระดับบล็อก ใช้น้ำหนัก 2.52 GB จาก revision `7a153712e5b50fac7e4a9d42ccf9ec41fb4202f0` ทดสอบแบบ single pass ที่ temperature 0 บน GPU ด้วย vLLM 0.27.1 แบบ eager พร้อมปิด MTP และใช้ตัวแปลงผลของผู้พัฒนา
-- **Typhoon OCR V2 2B** ส่งคืนบล็อก JSON พร้อมประเภท พิกัด และ HTML ของตาราง ใช้ prompt มาตรฐานของผู้พัฒนาบน vLLM 0.33.0
-
-เวลาที่รายงานเป็นเวลามัธยฐานต่อคำขอ ไม่รวมแปลง PDF และโหลดโมเดล OpenThai Text ใช้ OpenVINO บน CPU หนึ่งเธรด ส่วนทั้งสองรุ่นที่สร้างโครงสร้างใช้ vLLM บน RTX PRO 6000 Blackwell โดยมีคำขอพร้อมกันได้ถึงสี่คำขอ วัดคนละรอบและเวลา OpenThai Markdown รวมคำขอชุดแรกที่มีการอุ่นระบบ จึงใช้เป็นข้อมูลการใช้งานบนเครื่องนี้
-
-## วิธีทดสอบ
-
-- ใช้ PDF สาธารณะ 6 ฉบับ เรนเดอร์ 200 DPI และตรวจ SHA-256 ว่าทั้งสามรุ่นอ่านภาพเดียวกัน โดยไม่ได้ตรวจว่าเอกสารทับซ้อนกับข้อมูลฝึกของแต่ละรุ่นหรือไม่
-- ใช้ GPT‑6.1 Sol ถอดข้อความจากภาพต้นฉบับโดยไม่ป้อนผล OCR ให้ดู มี 286 หน้าที่คำนวณ CER และ 7 หน้าว่าง ช่วงที่อ่านไม่ได้ใน 13 หน้าถูกข้ามในการคำนวณ
-- แปลง Markdown และ HTML เป็นข้อความก่อนคิด CER โดยคงลำดับข้อความและเครื่องหมายที่เป็นเนื้อหา
-- คะแนนหลักนับผลที่ถูกตัดหรือแปลงไม่ได้เป็นหน้าล้มเหลว สำหรับ Typhoon พบกรณีนี้ในแบบ ภ.ง.ด. 90 หน้า PDF 1
-- ผลอ้างอิงถอดด้วยโมเดลภาษาและตรวจด้วยสายตาบางตัวอย่าง คะแนนครอบคลุมชุดเอกสารนี้
-
-[แหล่งเอกสารและ SHA-256](data/sources.json) · [ผลรายหน้า](data/per-page.csv) · [ผลรวม](data/results.json) · [ตรวจยอดเงินรายช่อง](data/table-spotcheck.json) · [ตรวจตารางงบประมาณ](data/budget-table-spotcheck.json) · [การตรวจหน้าว่าง](data/blank-gate.json)
-
-[ผลทดสอบ สกมช. 27 หน้า](ncsa-ocr-review.md) · [รายงานประจำปี สกมช. ครบ 152 หน้า](ncsa-annual-full-review.md) · [Qwen จัดประเภทหน้า](qwen-ocr-routing.md) · [Qwen ถอดข้อความอ้างอิง](qwen-ground-truth-review.md) · [แนวทางตรวจไฟล์ก่อนเผยแพร่](PUBLISHING.md)
-
-[iApp OpenThai OCR Text](https://huggingface.co/iapp/OpenThai2.0-OCR-Text) · [iApp OpenThai OCR Markdown](https://huggingface.co/iapp/OpenThai2.0-OCR-Markdown) · [Typhoon OCR V2 2B](https://huggingface.co/typhoon-ai/typhoon-ocr2-2b)
+[OpenThai OCR Text](https://huggingface.co/iapp/OpenThai2.0-OCR-Text) · [OpenThai OCR Markdown](https://huggingface.co/iapp/OpenThai2.0-OCR-Markdown) · [Typhoon OCR V2 2B](https://huggingface.co/typhoon-ai/typhoon-ocr2-2b)

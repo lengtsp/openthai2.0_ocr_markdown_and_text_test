@@ -1,36 +1,39 @@
 <!doctype html>
-<html lang="th">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="เทียบ OCR ภาษาไทยสามรุ่นกับข้อความ ตาราง กราฟ ภาพหน้าจอ และผังงานสำหรับ IT Audit">
-<title>เลือก OCR ภาษาไทยตามลักษณะหน้า · IT Audit</title>
+<meta name="description" content="Compare three Thai OCR models on prose, tables, charts, screenshots, and flowcharts for IT audit.">
+<title>Choosing a Thai OCR model by page type · IT audit</title>
+<link rel="alternate" hreflang="th" href="th.html">
 <link rel="stylesheet" href="style.css">
 <script defer src="assets/cases.js"></script>
+<script defer src="assets/cases.en.js"></script>
 <script defer src="app.js"></script>
 </head>
 <body>
 <header class="mast">
   <div class="wrap">
-    <h1>เลือก OCR ภาษาไทยตามลักษณะหน้า</h1>
-    <p>เทียบ OpenThai Text, OpenThai Markdown และ Typhoon OCR V2 2B จากเอกสารจริงในมุม IT Audit</p>
+    <a class="language-link" href="th.html" lang="th" hreflang="th">ภาษาไทย</a>
+    <h1>Choosing a Thai OCR model by page type</h1>
+    <p>OpenThai Text, OpenThai Markdown, and Typhoon OCR V2 2B on real documents for IT audit</p>
   </div>
 </header>
 <main class="wrap">
   <section class="story" aria-labelledby="story-title">
-    <h2 id="story-title">จากข้อความธรรมดาถึงผังงาน</h2>
+    <h2 id="story-title">From plain text to flowcharts</h2>
     <ol class="story-steps">
-      <li><strong>เริ่มจากข้อความคอลัมน์เดียว</strong><p>ในชุด 10 หน้า OpenThai Text อ่านผิด 0.39% และใช้เวลาค่ากลาง 0.31 วินาทีต่อหน้า บนเครื่องที่ทดสอบ</p></li>
-      <li><strong>ดูว่าข้อมูลยังอยู่ถูกช่องหรือไม่</strong><p>OpenThai Markdown เก็บ Do’s และ Don’ts ได้ครบฝั่งละ 9 ข้อ ส่วน Typhoon เก็บรายการซ้าย–ขวาเป็นคู่ในแต่ละแถว</p></li>
-      <li><strong>เพิ่มกราฟ ภาพหน้าจอ และผังงาน</strong><p>ดูว่าแต่ละรุ่นจับคู่ปี เรียงตัวเลข และตามลูกศรได้แค่ไหน <a href="#visual-cases">ดูผล 3 เคส</a></p></li>
-      <li><strong>เลือกใช้กับงาน IT Audit</strong><p>ใช้ Text ดึงเนื้อหาไปค้น ใช้ Markdown อ่านหลายคอลัมน์ และลอง Typhoon แบบเจาะจงเมื่อต้องการรูปแบบผลลัพธ์เฉพาะ</p></li>
+      <li><strong>Start with single-column prose</strong><p>OpenThai Text had a 0.39% character error rate and a median time of 0.31 seconds per page in the 10-page sample.</p></li>
+      <li><strong>Check that values stay in the right cells</strong><p>OpenThai Markdown kept all nine Do’s and nine Don’ts in their columns. Typhoon kept the left and right items paired by row.</p></li>
+      <li><strong>Try charts, screenshots, and flowcharts</strong><p>Check how well each model matches years to values, reads dashboard numbers in order, and follows arrows. <a href="#visual-cases">See the three cases</a></p></li>
+      <li><strong>Pick a model for the audit task</strong><p>Start with Text for searchable prose, Markdown for multi-column content, and Typhoon with a focused prompt when you need a particular output structure.</p></li>
     </ol>
   </section>
-  <h2 id="interactive-cases" class="case-heading">ลองเทียบ Prompt และผล OCR ของ สกมช.</h2>
-  <nav id="cases" aria-label="เลือกตัวอย่างเอกสาร"></nav>
+  <h2 id="interactive-cases" class="case-heading">Explore NCSA prompts and OCR outputs</h2>
+  <nav id="cases" aria-label="Choose a document example"></nav>
   <section class="comparison" aria-labelledby="case-title">
     <div class="source">
-      <div class="section-label"><span>ภาพต้นฉบับ</span><a id="full-image" target="_blank" rel="noopener">เปิดเต็มหน้า ↗</a></div>
+      <div class="section-label"><span>Source image</span><a id="full-image" target="_blank" rel="noopener">Open full page ↗</a></div>
       <img id="source-image" alt="">
     </div>
     <div class="findings">
@@ -41,32 +44,32 @@
     </div>
   </section>
   <section aria-labelledby="outputs-title" class="outputs">
-    <div class="section-label"><h2 id="outputs-title">Prompt และผลจากโมเดล</h2><span>กดเปิดเพื่อดูผลเต็มหน้า</span></div>
+    <div class="section-label"><h2 id="outputs-title">Prompts and model outputs</h2><span>Expand each model to see the full output</span></div>
     <div id="models" class="models"></div>
   </section>
-  <details class="qa"><summary>คำถามที่ส่งให้ Qwen หลัง OCR</summary><p>รอบถามตอบใช้หลักฐาน 4 หน้า คำถามเรื่องกราฟครอบคลุม National CERT</p><pre id="questions"></pre></details>
+  <details class="qa"><summary>Questions sent to Qwen after OCR (Thai)</summary><p>The Q&amp;A run used four pages as evidence. The chart questions cover the National CERT chart.</p><pre id="questions" lang="th"></pre></details>
   <section class="story visual-cases" id="visual-cases" aria-labelledby="visual-title">
-    <h2 id="visual-title">กราฟ ภาพหน้าจอ และผังงาน</h2>
-    <p>ภาพเต็มมีต้นฉบับ Prompt ผล OCR และคะแนน CER / BLEU เฉพาะจุดที่ตรวจ Typhoon ใช้โมเดลเดียวกันทั้งแบบมาตรฐานและแบบเจาะจง</p>
+    <h2 id="visual-title">Charts, screenshots, and flowcharts</h2>
+    <p>The full comparisons include source pages, prompts, raw OCR, and CER / BLEU for selected fields. Both Typhoon runs use the same model with different prompts.</p>
     <div class="models">
       <article class="model">
-        <h3>กราฟ ธปท.</h3>
-        <p>Markdown กับ Typhoon แบบเจาะจงจับคู่ปีและค่าได้ครบ 26/26 จุดในกราฟที่พิมพ์ค่าไว้ ส่วน Text อ่านได้หลายค่าแต่ยังไม่จับคู่ปี และ Typhoon มาตรฐานไม่ถอดเลขในกราฟ เมื่อไม่มีป้ายกำกับ ทั้ง Markdown และ Typhoon แบบเจาะจงคืนค่าต่างกัน</p>
-        <a href="assets/regulator-chart.jpg">เปิดภาพกราฟและผล OCR เต็ม</a>
+        <h3>Bank of Thailand charts</h3>
+        <p>Markdown and Typhoon with a focused prompt matched all 26 year–value pairs on the labeled charts. Text read many values without linking them to years. Standard Typhoon left chart text empty. On the unlabeled chart, Markdown and focused Typhoon returned different values.</p>
+        <a href="assets/regulator-chart.jpg">Open the full chart comparison (Thai)</a>
       </article>
       <article class="model">
-        <h3>ภาพหน้าจอ สกมช.</h3>
-        <p>Text อ่านเลขครบ 6 ค่าแต่สลับสองตัวแรก ส่วน Typhoon แบบเจาะจงอ่านครบและเรียงถูก Markdown และ Typhoon มาตรฐานพลาดเลขชุดนี้บนจอ</p>
-        <a href="assets/regulator-dashboard.jpg">เปิดภาพหน้าจอและผล OCR เต็ม</a>
+        <h3>NCSA dashboard screenshot</h3>
+        <p>Text found all six numbers but swapped the first two. Typhoon with a focused prompt returned all six in order. Markdown and standard Typhoon missed the six dashboard numbers.</p>
+        <a href="assets/regulator-dashboard.jpg">Open the full dashboard comparison (Thai)</a>
       </article>
       <article class="model">
-        <h3>ผังงาน ETDA</h3>
-        <p>Text อ่านชื่อกล่องได้เกือบครบ Markdown แปลงผังเป็นตาราง ส่วน Typhoon มาตรฐานจัดเป็นภาพ Typhoon แบบเจาะจงตามลูกศรได้ดีที่สุด แต่ยังถูกเพียง 6/12 เส้น</p>
-        <a href="assets/regulator-flow.jpg">เปิดผังงานและผล OCR เต็ม</a>
+        <h3>ETDA flowcharts</h3>
+        <p>Text read nearly all selected labels. Markdown converted the flowchart into a table. Standard Typhoon classified it as a figure. Typhoon with a focused prompt followed the most arrows, but still got only 6 of 12 right.</p>
+        <a href="assets/regulator-flow.jpg">Open the full flowchart comparison (Thai)</a>
       </article>
     </div>
   </section>
-  <footer><a href="https://github.com/lengtsp/openthai2.0_ocr_markdown_and_text_test">GitHub ↗</a><a id="official" target="_blank" rel="noopener">PDF จาก สกมช. ↗</a></footer>
+  <footer><a href="https://github.com/lengtsp/openthai2.0_ocr_markdown_and_text_test">GitHub ↗</a><a id="official" target="_blank" rel="noopener">NCSA source PDF ↗</a></footer>
 </main>
 </body>
 </html>
